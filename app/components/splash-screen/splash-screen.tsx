@@ -9,7 +9,7 @@ const SplashScreen: React.FC = () => {
   return (
     <div className="splashScreen">
       <div className="circularDiv">
-        <Image src={letterA} alt="" width={200} />{" "}
+        <Image src={letterA} alt="" width={140} />{" "}
       </div>
     </div>
   );
