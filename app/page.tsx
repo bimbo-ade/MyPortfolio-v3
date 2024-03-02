@@ -303,18 +303,18 @@ export default function Page() {
                     ABOUT
                   </p>
 
-                  <p className="text-[14px]  ">
-                    Hi! I'm a frontend developer specializing in React.js
+                  <p className="text-[14px]">
+                    Hi! Im a frontend developer specializing in React.js
                     Next.js, TypeScript and CSS. I create responsive web
                     applications with a focus on seamless user experiences.My
                     journey in web development has led me to collaborate on
                     diverse projects across the finance, travel, and healthcare
-                    industries. I'm passionate about creating great user
+                    industries. Im passionate about creating great user
                     experiences and I have a strong understanding of usability
                     and accessibility standards.
                   </p>
                   <p className="mt-[22px] text-[14px]">
-                    Recently, I've ventured into the dynamic world of mobile app
+                    Recently, Ive ventured into the dynamic world of mobile app
                     creation with{" "}
                     <span className="tracking-[3px] text-[#53DD89]">
                       Flutter
@@ -323,7 +323,7 @@ export default function Page() {
                     both web and mobile platforms.
                   </p>
                   <p className="mt-[22px] text-[14px]">
-                    In my life outside coding, you'll often find me immersed in
+                    In my life outside coding, youll often find me immersed in
                     captivating movie marathons, enjoying quality time with
                     friends, or embarking on thrilling gaming adventures. Just
                     as I seek excellence in code, I appreciate the artistry in
@@ -332,8 +332,8 @@ export default function Page() {
                   </p>
                   <p className="mt-[22px] text-[14px]">
                     {" "}
-                    I'm always eager to collaborate on exciting projects or
-                    discuss the latest trends in frontend development. Let's
+                    Im always eager to collaborate on exciting projects or
+                    discuss the latest trends in frontend development. Lets
                     build something amazing together!
                   </p>
                   {/* Add content for Section 1 */}
@@ -343,7 +343,6 @@ export default function Page() {
                   onMouseEnter={() => handleMouseEnter("section2")}
                   onMouseLeave={handleMouseLeave}
                   className=" my-[120px] laptop:w-[470px] laptop:my-[180px] desktop:w-[560px]"
-
                 >
                   {" "}
                   <p className="mt-[30px] text-[12px] text-white font-bold tracking-[2px] laptop:hidden">
