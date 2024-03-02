@@ -5,14 +5,14 @@ import Image from "next/image";
 import flower from "@/public/assets/images/flower.jpg";
 const Projects = () => {
   return (
-    <div className="laptop:w-[560px]">
+    <div className="desktop:w-[560px]">
       <div className="my-[50px]">
         {" "}
         <a
           href="https://abimbola-adeyemi.vercel.app"
           target="_blank"
           rel="noopener noreferrer"
-          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex laptop:w-[610px] laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] hover:bg-opacity-[0.08]"
+          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex   laptop:w-[480px] desktop:w-[610px]  laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]"
         >
           <Image
             src={flower}
@@ -32,7 +32,7 @@ const Projects = () => {
               My portfolio highlights my expertise in CSS animation, and I
               played a key role in its loose design.
             </p>
-            <div className="flex mt-[10px] flex-wrap gap-2 tablet:gap-4">
+            <div className="flex mt-[10px] flex-wrap gap-2 desktop:gap-4">
               <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
                 {" "}
                 Reactjs
@@ -59,7 +59,7 @@ const Projects = () => {
           href="https://myfoodlang.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
-          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex laptop:w-[610px] laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] hover:bg-opacity-[0.08]"
+          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex  laptop:w-[480px] desktop:w-[610px]  laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]"
         >
           <Image
             src={flower}
@@ -80,7 +80,7 @@ const Projects = () => {
               Redux for state management, coupled with React and CSS for a
               seamless and engaging user experience.
             </p>
-            <div className="flex mt-[10px] flex-wrap gap-2 tablet:gap-4">
+            <div className="flex mt-[10px] flex-wrap gap-2 desktop:gap-4">
               <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
                 {" "}
                 Reactjs
@@ -107,7 +107,7 @@ const Projects = () => {
           href="https://starwarspj.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
-          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex laptop:w-[610px] laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] hover:bg-opacity-[0.08]"
+          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex laptop:w-[480px] desktop:w-[610px] laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]"
         >
           <Image
             src={flower}
@@ -128,7 +128,7 @@ const Projects = () => {
               integration, utilizing an open backend API to list movies from the
               Star Wars franchise and showcase their respective characters.
             </p>
-            <div className="flex mt-[10px] flex-wrap gap-2 tablet:gap-4">
+            <div className="flex mt-[10px] flex-wrap gap-2 desktop:gap-4">
               <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
                 {" "}
                 Reactjs
@@ -155,7 +155,7 @@ const Projects = () => {
           href="https://www.instagram.com/damisayrah_/"
           target="_blank"
           rel="noopener noreferrer"
-          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex laptop:w-[610px] laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] hover:bg-opacity-[0.08]"
+          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex  laptop:w-[480px] desktop:w-[610px] laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]"
         >
           <Image
             src={flower}
@@ -175,7 +175,7 @@ const Projects = () => {
               My portfolio demonstrates my proficiency in Next.js, complemented
               by the use of Tailwind CSS and CSS animation libraries.
             </p>
-            <div className="flex mt-[10px] flex-wrap gap-2 tablet:gap-4">
+            <div className="flex mt-[10px] flex-wrap gap-2 desktop:gap-4">
               <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
                 {" "}
                 Nextjs{" "}

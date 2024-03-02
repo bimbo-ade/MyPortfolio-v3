@@ -3,7 +3,7 @@ import React from "react";
 const Experience = () => {
   return (
     <div className="group">
-      <div className="  mt-[30px] tablet:flex tablet:my-[40px] w-[100%] laptop:w-[510px] desktop:w-[610px] laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]">
+      <div className="  mt-[30px] tablet:flex tablet:my-[40px] w-[100%] laptop:w-[480px] desktop:w-[610px] laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]">
         <p className="mb-[10px] tablet:w-[20%] desktop:w-[23%] tracking-[1px]  mr-[22px] text-[11px]">
           {" "}
           Mar 2023 - PRESENT
@@ -65,7 +65,7 @@ const Experience = () => {
           </div>
         </div>
       </div>{" "}
-      <div className="  mt-[30px] tablet:flex tablet:my-[40px] w-[100%] laptop:w-[510px] desktop:w-[610px] laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]">
+      <div className="  mt-[30px] tablet:flex tablet:my-[40px] w-[100%] laptop:w-[480px] desktop:w-[610px] laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]">
         <p className="mb-[10px] tablet:w-[20%] desktop:w-[23%] tracking-[1px]  mr-[22px] text-[11px]">
           {" "}
           Oct 2022 - Jan 2023
@@ -111,7 +111,7 @@ const Experience = () => {
           </div>
         </div>
       </div>{" "}
-      <div className="  mt-[30px] tablet:flex tablet:my-[40px] w-[100%] laptop:w-[510px] desktop:w-[610px] laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]">
+      <div className="  mt-[30px] tablet:flex tablet:my-[40px] w-[100%] laptop:w-[480px] desktop:w-[610px] laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]">
       <p className="mb-[10px] tablet:w-[20%] desktop:w-[23%] tracking-[1px]  mr-[22px] text-[11px]">
           {" "}
           Sept 2021 - Oct 2022

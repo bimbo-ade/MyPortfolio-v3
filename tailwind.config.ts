@@ -11,9 +11,9 @@ const config: Config = {
       phone: "320px",
       tablet: "481px",
 
-      laptop: "820px",
+      laptop: "1024px",
 
-      desktop: "1280px",
+      desktop: "1024px",
     },
     extend: {
       backgroundImage: {

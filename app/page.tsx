@@ -118,8 +118,8 @@ export default function Page() {
             animate="default"
             className="cursor-highlight"
           />{" "} */}
-          <div className=" tablet:p-8 laptop:flex   desktop:bg-white  laptop:h-screen overflow-hidden  m-auto ">
-            <div className="laptop:w-[46%] desktop:ml-[10%]  mt-[20px]    laptop:px-[50px]  p-4">
+          <div className=" tablet:p-8 laptop:flex    laptop:h-screen overflow-hidden  m-auto ">
+            <div className="laptop:w-[46%] desktop:ml-[5%]  mt-[20px]    laptop:px-[50px]  p-4">
               <div>
                 <motion.div variants={itemVariants}>
                   {" "}
@@ -352,12 +352,12 @@ export default function Page() {
                   <Experience />
                 </section>
                 <section
-                  className=" my-[120px] tablet:mb-[100px]"
+                  className=" my-[120px] laptop:w-[470px] laptop:my-[180px] desktop:w-[560px]"
                   id="textForSection3"
                   onMouseEnter={() => handleMouseEnter("section3")}
                   onMouseLeave={handleMouseLeave}
                 >
-                  <p className="my-[20px] text-[12px] text-white font-bold tracking-[2px] laptop:hidden">
+                  <p className="mt-[20px] text-[12px] text-white font-bold tracking-[2px] laptop:hidden">
                     PROJECTS
                   </p>
                   <Projects />
