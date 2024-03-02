@@ -14,12 +14,33 @@ import SplashScreen from "./components/splash-screen/splash-screen";
 import { motion } from "framer-motion";
 import "./components/cursor-highlight/cursor.css";
 import CursorHighlight from "./components/cursor-highlight/cursor";
+import Experience from "./components/experience/experience";
+import Projects from "./components/projects/projects";
+import { MdOutlineArrowDownward } from "react-icons/md";
 export default function Page() {
   const [loading, setLoading] = useState(true);
   const [cursorPosition, setCursorPosition] = useState({
     x: 0,
     y: 0,
   });
+  // const [activeSection, setActiveSection] = useState("section1");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollX = window.scrollX;
+      const scrollY = window.scrollY;
+
+      console.log("ScrollX:", scrollX);
+      console.log("ScrollY:", scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Cleanup the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   useEffect(() => {
     const mouseMove = (e: any) => {
@@ -60,6 +81,27 @@ export default function Page() {
       transition: { stiffness: 500, damping: 10 }, // Adjust values for faster motion
     },
   };
+  // const [isHovered, setIsHovered] = useState(false);
+
+  // const handleMouseEnter = () => {
+  //   setIsHovered(true);
+  // };
+
+  // const handleMouseLeave = () => {
+  //   setIsHovered(false);
+  // };
+  const [activeSection, setActiveSection] = useState(null);
+
+  const handleMouseEnter = (sectionId: any) => {
+    setActiveSection(sectionId);
+  };
+
+  const handleMouseLeave = () => {
+    setActiveSection(null);
+  };
+
+  const isSectionActive = (sectionId: any) => activeSection === sectionId;
+
   return (
     <div>
       {loading ? (
@@ -71,20 +113,24 @@ export default function Page() {
           animate="visible"
         >
           {" "}
-          <motion.div
+          {/* <motion.div
             variants={cursorVariants}
             animate="default"
             className="cursor-highlight"
-          />{" "}
-          <div className="flex h-screen overflow-hidden w-[80%] m-auto ">
-            <div className="w-[50%] mt-[70px]   p-4">
+          />{" "} */}
+          <div className=" tablet:p-8 laptop:flex   desktop:bg-white  laptop:h-screen overflow-hidden  m-auto ">
+            <div className="laptop:w-[46%] desktop:ml-[10%]  mt-[20px]    laptop:px-[50px]  p-4">
               <div>
                 <motion.div variants={itemVariants}>
                   {" "}
-                  <Image src={name} alt="" width={400} />{" "}
+                  <Image
+                    src={name}
+                    alt=""
+                    className="tablet:w-[330px] tablet:w-[400px] w-[200px]"
+                  />
                 </motion.div>
                 <motion.div variants={itemVariants}>
-                  <p className=" text-[14px] w-[430px] mt-[0px] text-[#9bb8d2]">
+                  <p className="text-[14px] w-[100%] laptop:text-[16px] tablet:w-[300px] laptop:w-[360px] mt-[10px] text-[#9bb8d2]">
                     {" "}
                     Frontend developer with a passion for crafting seamless web
                     experiences using Next.js, React, TypeScript, and CSS.
@@ -93,54 +139,113 @@ export default function Page() {
               </div>
 
               <motion.div variants={itemVariants}>
-                <div className="mt-[100px]">
+                <div className="hidden laptop:block tablet:mt-[100px]">
                   <ul>
-                    <li className="mt-[10px]">
+                    <li
+                      className="mt-[10px]"
+                      onMouseEnter={handleMouseEnter}
+                      onMouseLeave={handleMouseLeave}
+                    >
                       <a
-                        href="#section2"
-                        className="hover:text-white group flex items-center tracking-[5px] text-[#9bb8d2]"
+                        href="#section1"
+                        id="textForSection1"
+                        className={`${
+                          isSectionActive("section1")
+                            ? "text-[#53DD89] group flex items-center tracking-[5px] "
+                            : "hover:text-white group flex items-center tracking-[5px] text-[#9bb8d2]"
+                        }`}
                       >
-                        <div className="w-[40px] mr-[7px] h-[1px] bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"></div>
+                        <div
+                          id="textForSection1"
+                          className={` ${
+                            isSectionActive("section1")
+                              ? "w-[60px] mr-[7px] h-[1px]  bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"
+                              : "w-[30px] mr-[7px] h-[1px] bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"
+                          }`}
+                        ></div>
                         About
                       </a>
                     </li>{" "}
-                    <li className="mt-[10px]">
+                    <li
+                      className="mt-[10px]"
+                      onMouseEnter={handleMouseEnter}
+                      onMouseLeave={handleMouseLeave}
+                    >
                       <a
                         href="#section2"
-                        className="hover:text-white group flex items-center tracking-[5px] text-[#9bb8d2]"
+                        id="textForSection2"
+                        className={`${
+                          isSectionActive("section2")
+                            ? "text-[#53DD89] group flex items-center tracking-[5px] "
+                            : "hover:text-white group flex items-center tracking-[5px] text-[#9bb8d2]"
+                        }`}
                       >
-                        <div className="w-[40px] mr-[7px] h-[1px] bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"></div>
-                        Experience
+                        <div
+                          className={`${
+                            isSectionActive("section2")
+                              ? "w-[60px] mr-[7px] h-[1px]  bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"
+                              : "w-[30px] mr-[7px] h-[1px] bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"
+                          }`}
+                        ></div>
+                        Experience{" "}
                       </a>
                     </li>{" "}
-                    <li className="mt-[10px]">
+                    <li
+                      className="mt-[10px]"
+                      onMouseEnter={handleMouseEnter}
+                      onMouseLeave={handleMouseLeave}
+                    >
                       <a
-                        href="#section2"
-                        className="hover:text-white group flex items-center tracking-[5px] text-[#9bb8d2]"
+                        href="#section3"
+                        id="textForSection3"
+                        className={`${
+                          isSectionActive("section3")
+                            ? "text-[#53DD89] group flex items-center tracking-[5px] "
+                            : "hover:text-white group flex items-center tracking-[5px] text-[#9bb8d2]"
+                        }`}
                       >
-                        <div className="w-[40px] mr-[7px] h-[1px] bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"></div>
+                        <div
+                          id="textForSection3"
+                          className={`${
+                            isSectionActive("section3")
+                              ? "w-[60px] mr-[7px] h-[1px]  bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"
+                              : "w-[30px] mr-[7px] h-[1px] bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"
+                          }`}
+                        ></div>
                         Projects
                       </a>
                     </li>{" "}
-                    <li className="mt-[10px]">
+                    <li
+                      className="mt-[10px]"
+                      onMouseEnter={handleMouseEnter}
+                      onMouseLeave={handleMouseLeave}
+                    >
                       <a
-                        href="#section2"
-                        className="hover:text-white group flex items-center tracking-[5px] text-[#9bb8d2]"
+                        href="#section4"
+                        id="textForSection4"
+                        className={`${
+                          isSectionActive("section4")
+                            ? "text-[#53DD89] group flex items-center tracking-[5px] "
+                            : "hover:text-white group flex items-center tracking-[5px] text-[#9bb8d2]"
+                        }`}
                       >
-                        <div className="w-[40px] mr-[7px] h-[1px] bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"></div>
-                        Resume
+                        <div
+                          id="textForSection4"
+                          className={`${
+                            isSectionActive("section4")
+                              ? "w-[60px] mr-[7px] h-[1px]  bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"
+                              : "w-[30px] mr-[7px] h-[1px] bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"
+                          }`}
+                        ></div>
+                        Resume{" "}
                       </a>
                     </li>{" "}
                   </ul>{" "}
                 </div>
               </motion.div>
               <motion.div variants={itemVariants}>
-                <div className="mt-[100px]">
-                  <p>
-                    I'm here to help! If you have any questions or just want to
-                    connect, feel free to reach out to me through any of the
-                    social platforms listed below:
-                  </p>
+                <div className=" mt-[30px] laptop:mt-[170px] w-[460px]">
+                  <p className="hidden laptop:block"> Lets connect</p>
                   <div className="flex w-[190px] mt-[20px] justify-between">
                     <a
                       href="https://github.com/bimbo-ade"
@@ -186,48 +291,89 @@ export default function Page() {
               </motion.div>
             </div>
             {/* Right Scrollable Content */}{" "}
-            <div className="flex-1 overflow-y-auto p-4 py-[100px]">
+            <div className="flex-1 overflow-y-auto h-full px-4 py-[80px]  tablet:pt-[100px] laptop:py-[60px] mx-2 scrollbar-none">
               <motion.div variants={itemVariants}>
-                {/* Content for Section 1 */}
-                <section id="section1" className="mb-10">
-                  <h2 className="text-[16px]">
-                    Greetings! I'm [Your Name], a dedicated frontend developer
-                    known for my expertise in crafting modern and responsive web
-                    applications. My journey in the digital realm revolves
-                    around creating seamless user experiences using a blend of
-                    cutting-edge technologies. With a primary focus on frontend
-                    development, I specialize in harnessing the power of
-                    React.js. I take pride in building beautiful, interactive,
-                    and intuitive user interfaces that not only meet but exceed
-                    user expectations. My code is characterized by its
-                    performance, scalability, and maintainability. Responsive
-                    design is at the core of my development philosophy.
-                    Leveraging the capabilities of CSS and Tailwind CSS, I
-                    ensure that websites look impeccable and function seamlessly
-                    across a myriad of devices. As a fervent TypeScript
-                    enthusiast, I champion its use to enhance the development
-                    process. By catching errors early and improving code
-                    quality, TypeScript plays a pivotal role in my toolkit. My
-                    proficiency extends to Next.js, where I utilize its
-                    capabilities for server-side rendering, efficient routing,
-                    and optimized builds. The result is web applications that
-                    not only meet but exceed performance standards. In the world
-                    of technology, my language is not limited to code alone. I
-                    communicate through the lens of Git, GitHub, VSCode, npm,
-                    and Yarn. These tools empower me to bring ideas to life
-                    efficiently. Beyond code, I'm always excited to connect with
-                    fellow developers and collaborators. You can find me on
-                    [LinkedIn](#) and [Twitter](#), where we can discuss
-                    exciting projects, the latest trends in frontend
-                    development, or anything else that sparks your interest.
-                    Let's build something amazing together!
-                  </h2>
+                <section
+                  id="textForSection1"
+                  onMouseEnter={() => handleMouseEnter("section1")}
+                  onMouseLeave={handleMouseLeave}
+                  className="mb-10 laptop:w-[470px] desktop:w-[560px]"
+                >
+                  <p className="my-[30px] text-[12px] text-white font-bold tracking-[2px] laptop:hidden">
+                    ABOUT
+                  </p>
+
+                  <p className="text-[14px]  ">
+                    Hi! I'm a frontend developer specializing in React.js
+                    Next.js, TypeScript and CSS. I create responsive web
+                    applications with a focus on seamless user experiences.My
+                    journey in web development has led me to collaborate on
+                    diverse projects across the finance, travel, and healthcare
+                    industries. I'm passionate about creating great user
+                    experiences and I have a strong understanding of usability
+                    and accessibility standards.
+                  </p>
+                  <p className="mt-[22px] text-[14px]">
+                    Recently, I've ventured into the dynamic world of mobile app
+                    creation with{" "}
+                    <span className="tracking-[3px] text-[#53DD89]">
+                      Flutter
+                    </span>{" "}
+                    , broadening my skill set to bring engaging experiences to
+                    both web and mobile platforms.
+                  </p>
+                  <p className="mt-[22px] text-[14px]">
+                    In my life outside coding, you'll often find me immersed in
+                    captivating movie marathons, enjoying quality time with
+                    friends, or embarking on thrilling gaming adventures. Just
+                    as I seek excellence in code, I appreciate the artistry in
+                    film, the warmth of friendships, and the excitement of
+                    virtual realms.
+                  </p>
+                  <p className="mt-[22px] text-[14px]">
+                    {" "}
+                    I'm always eager to collaborate on exciting projects or
+                    discuss the latest trends in frontend development. Let's
+                    build something amazing together!
+                  </p>
                   {/* Add content for Section 1 */}
                 </section>
-                {/* Content for Section 2 */}
-                <section id="section2" className="mb-10">
-                  <h2 className="text-2xl font-bold">Section 2</h2>
-                  {/* Add content for Section 2 */}
+                <section
+                  id="textForSection2"
+                  onMouseEnter={() => handleMouseEnter("section2")}
+                  onMouseLeave={handleMouseLeave}
+                  className=" my-[120px] laptop:w-[470px] laptop:my-[180px] desktop:w-[560px]"
+
+                >
+                  {" "}
+                  <p className="mt-[30px] text-[12px] text-white font-bold tracking-[2px] laptop:hidden">
+                    EXPERIENCE
+                  </p>
+                  <Experience />
+                </section>
+                <section
+                  className=" my-[120px] tablet:mb-[100px]"
+                  id="textForSection3"
+                  onMouseEnter={() => handleMouseEnter("section3")}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  <p className="my-[20px] text-[12px] text-white font-bold tracking-[2px] laptop:hidden">
+                    PROJECTS
+                  </p>
+                  <Projects />
+                </section>
+                <section
+                  className="pt-[20px] "
+                  id="textForSection4"
+                  onMouseEnter={() => handleMouseEnter("section4")}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  <p className="text-[#53DD89] flex tracking-[2px] uppercase text-[12px] tablet:text-[14px]">
+                    <a href="/resume">Download Resume </a>
+                    <span className=" ml-[7px]">
+                      <MdOutlineArrowDownward size={19} />
+                    </span>
+                  </p>{" "}
                 </section>
               </motion.div>
             </div>

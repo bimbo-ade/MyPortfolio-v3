@@ -4,9 +4,9 @@
 /* styles/globals.css */
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-* {
+/* * {
   cursor: none;
-}
+} */
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -23,8 +23,8 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #0a2036;
-  /* background-color:#11283D; */
+  /* background-color: #071b2e; */
+  background-color:#11283D;
 
   color: #9bb8d2;
 }
@@ -33,4 +33,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+.hovered {
+  font-size:40px;
+  background: red;
+   /* Change this to your desired background color */
 }
