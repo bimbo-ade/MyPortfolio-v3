@@ -14,7 +14,7 @@ const Experience = () => {
             {" "}
             Frontend Engineer . MAX.NG
           </p>
-          <p className="hidden text-[14px] opacity-[0.6] tablet:block">
+          <p className="hidden text-[16px] opacity-[0.6] tablet:block">
             Frontend Engineer
           </p>
           <p className=" mt-[10px]  text-[14px]  leading-7">
@@ -72,7 +72,7 @@ const Experience = () => {
         </p>
         <div className=" tablet:w-[80%] laptop:w-[70%]  ">
           {" "}
-          <p className="text-[#53DD89] text-[14px] laptop:text-[16px]">
+          <p className="text-[#53DD89] text-[16px] laptop:text-[16px]">
             Frontend Engineer . HNG
           </p>
           <p className="hidden text-[14px] opacity-[0.6] tablet:block">
@@ -118,9 +118,9 @@ const Experience = () => {
         </p>
         <div className=" tablet:w-[80%] laptop:w-[70%]  ">
           {" "}
-          <p className="text-[#53DD89] text-[14px] laptop:text-[16px]">
+          <p className="text-[#53DD89] text-[16px] laptop:text-[16px]">
             {" "}
-            UI Developer . CITISERVE LMTD
+            UI Developer . Citiserve Limited
           </p>
           <p className="hidden text-[14px] opacity-[0.6] tablet:block">
             UI Developer & Frontend Engineer
