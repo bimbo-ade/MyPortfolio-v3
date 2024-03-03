@@ -6,7 +6,7 @@ import flower from "@/public/assets/images/flower.jpg";
 const Projects = () => {
   return (
     <div className="">
-      <div className="my-[50px]">
+      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.03] p-4">
         {" "}
         <a
           href="https://abimbola-adeyemi.vercel.app"
@@ -53,7 +53,7 @@ const Projects = () => {
           </div>
         </a>{" "}
       </div>{" "}
-      <div className="my-[50px]">
+      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.03] p-4">
         {" "}
         <a
           href="https://myfoodlang.netlify.app/"
@@ -101,7 +101,7 @@ const Projects = () => {
           </div>
         </a>{" "}
       </div>{" "}
-      <div className="my-[50px]">
+      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.03] p-4">
         {" "}
         <a
           href="https://starwarspj.netlify.app/"
@@ -149,7 +149,7 @@ const Projects = () => {
           </div>
         </a>{" "}
       </div>{" "}
-      <div className="my-[50px]">
+      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.03] p-4">
         {" "}
         <a
           href="https://www.instagram.com/damisayrah_/"
