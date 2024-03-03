@@ -36,15 +36,15 @@ body {
 }
 
 @keyframes colorChangeS {
-  0% { color: #1aecc9; }
-  10% { color:rgb(58, 19, 62)9; }
+  0% { color: #61f098; }
+  10% { color:#53DD89;}
 
-  25% { color: #79dec5; }
-  0% { color: #053b32; }
-  61% { color: #04e6c0; }
-  0% { color: #053b32; }
-  75% { color: #04e6c0; }
-  0% { color: #28cfb3; }
+  25% { color: #53956c; }
+  0% { color: #28eb73; }
+  61% { color: #40df7d; }
+  0% { color: #1ae367; }
+  75% { color: #53DD89; }
+  0% { color: #4dc67b; }
 }
 
 
