@@ -136,7 +136,7 @@ export default function Page() {
                       alt=""
                       className="tablet:w-[330px] hidden tablet:block tablet:w-[400px] w-[200px]"
                     /> */}
-                    <p className="  text-[35px] tracking-[1px] mt-[45px] w-[290px]  tablet:w-[100%] uppercase mb-[-30px] tablet:mb-[30px] text-white">
+                    <p className="  text-[35px] tracking-[1px] mt-[65px] w-[290px]  tablet:w-[100%] uppercase mb-[-30px] tablet:mb-[30px] text-white">
                       {" "}
                       <span>I</span>
                       <span>M</span>
@@ -276,22 +276,29 @@ export default function Page() {
                 <motion.div variants={itemVariants}>
                   <div className=" mt-[30px] tablet:block laptop:mt-[170px]  ">
                     <p className="hidden tablet:block"> Lets connect</p>
-                    <div className="flex w-[100%] mt-[20px] justify-between bg-[#071726] px-6 py-2 fixed bottom-0 tablet:static tablet:w-[200px] tablet:bg-transparent tablet:px-2">
+                    <div className="flex w-[100%] mt-[20px] text-white justify-between bg-[#071726] px-9  py-4 fixed bottom-0 tablet:static tablet:w-[200px] tablet:bg-transparent tablet:px-2">
                       <a
                         href="https://github.com/bimbo-ade"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         {" "}
-                        <AiOutlineGithub size={30} />
+                        <AiOutlineGithub size={25} />
                       </a>
-
+                      <a
+                        href="https://github.com/bimbo-ade"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {" "}
+                        <AiOutlineGithub size={25} />
+                      </a>
                       <a
                         href="https://twitter.com/damisayrah_"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <AiFillTwitterCircle size={30} />
+                        <AiFillTwitterCircle size={25} />
                       </a>
 
                       <a
@@ -299,14 +306,14 @@ export default function Page() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <AiFillInstagram size={30} />
+                        <AiFillInstagram size={25} />
                       </a>
                       <a
                         href="mailto:bimboadeyemi65@gmail.com"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <AiOutlineMail size={30} />
+                        <AiOutlineMail size={25} />
                       </a>
 
                       {/* <a
