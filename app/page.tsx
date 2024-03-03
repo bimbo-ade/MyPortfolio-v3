@@ -136,7 +136,7 @@ export default function Page() {
                       alt=""
                       className="tablet:w-[330px] hidden tablet:block tablet:w-[400px] w-[200px]"
                     /> */}
-                    <p className="  text-[35px] tracking-[1px] mt-[35px] w-[290px]  tablet:w-[100%] uppercase mb-[-30px] tablet:mb-[30px] text-white">
+                    <p className="  text-[45px] tracking-[1px] mt-[35px] w-[290px]  tablet:w-[100%] uppercase mb-[-30px] tablet:mb-[30px] text-white">
                       {" "}
                       <span>I</span>
                       <span>M</span>
@@ -352,7 +352,7 @@ export default function Page() {
                       , broadening my skill set to bring engaging experiences to
                       both web and mobile platforms.
                     </p>
-                    <p className="mt-[22px] text-[12px] leading-7 tablet:text-[16px]">
+                    <p className="mt-[22px] text-[14px] leading-7 tablet:text-[16px]">
                       In my life outside coding, youll often find me immersed in
                       captivating movie marathons, enjoying quality time with
                       friends, or embarking on thrilling gaming adventures. Just
@@ -360,7 +360,7 @@ export default function Page() {
                       film, the warmth of friendships, and the excitement of
                       virtual realms.
                     </p>
-                    <p className="mt-[22px] text-[42px] leading-7 tablet:text-[16px]">
+                    <p className="mt-[22px] text-[14px] leading-7 tablet:text-[16px]">
                       {" "}
                       Im always eager to collaborate on exciting projects or
                       discuss the latest trends in frontend development. Lets
