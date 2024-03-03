@@ -329,7 +329,7 @@ export default function Page() {
                     onMouseLeave={handleMouseLeave}
                     className="mb-10  "
                   >
-                    <p className="my-[30px] hidden tablet:block text-[12px] text-white font-bold tracking-[2px] laptop:hidden">
+                    <p className="my-[30px] hidden tablet:block text-[14px] text-white font-bold tracking-[2px] laptop:hidden">
                       ABOUT
                     </p>
 
@@ -375,7 +375,7 @@ export default function Page() {
                     className=" my-[120px]"
                   >
                     {" "}
-                    <p className="mt-[30px] text-[12px] text-white font-bold tracking-[2px] laptop:hidden">
+                    <p className="mt-[30px] text-[14px] text-white font-bold tracking-[2px] laptop:hidden">
                       EXPERIENCE
                     </p>
                     <Experience />
@@ -386,7 +386,7 @@ export default function Page() {
                     onMouseEnter={() => handleMouseEnter("section3")}
                     onMouseLeave={handleMouseLeave}
                   >
-                    <p className="mt-[20px] text-[12px] text-white font-bold tracking-[2px] laptop:hidden">
+                    <p className="mt-[20px] text-[14px] text-white font-bold tracking-[2px] laptop:hidden">
                       PROJECTS
                     </p>
                     <Projects />
