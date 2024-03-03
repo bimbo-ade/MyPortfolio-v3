@@ -126,7 +126,7 @@ export default function Page() {
               alt=""
               className=" tablet:hidden mt-8  mx-4 w-[50px]"
             /> */}
-            <div className=" tablet:p-8 laptop:flex laptop:h-screen overflow-hidden max-w-[1300px] m-auto ">
+            <div className=" tablet:p-8 laptop:flex laptop:h-screen overflow-hidden tablet:max-w-[810px] laptop:max-w-[1300px] m-auto ">
               <div className="laptop:w-[50%] mt-[20px] laptop:p-[50px]  tablet:p-5">
                 <div className="p-5 tablet:p-0">
                   <motion.div variants={itemVariants}>
@@ -275,7 +275,7 @@ export default function Page() {
                 </motion.div>
                 <motion.div variants={itemVariants}>
                   <div className=" mt-[30px] tablet:block laptop:mt-[170px]  ">
-                    <p className="hidden tablet:block"> Lets connect</p>
+                    <p className="hidden laptop:block"> Lets connect</p>
                     <div className="flex w-[100%] mt-[20px] text-white justify-between bg-[#071726] px-9  py-4 fixed bottom-0 tablet:static tablet:w-[200px] tablet:bg-transparent tablet:px-2">
                       <a
                         href="https://github.com/bimbo-ade"
