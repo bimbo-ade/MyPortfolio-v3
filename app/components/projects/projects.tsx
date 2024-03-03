@@ -28,7 +28,7 @@ const Projects = () => {
                 <MdOutlineArrowOutward size={15} />
               </span>
             </p>
-            <p className=" mt-[10px] text-[14px] ">
+            <p className=" mt-[10px] text-[14px]  leading-7">
               My portfolio highlights my expertise in CSS animation, and I
               played a key role in its loose design.
             </p>
@@ -75,7 +75,7 @@ const Projects = () => {
                 <MdOutlineArrowOutward size={15} />
               </span>
             </p>
-            <p className=" mt-[10px] text-[14px] ">
+            <p className=" mt-[10px] text-[14px]  leading-7 ">
               Foodlang is a web application featuring a menu list. It utilizes
               Redux for state management, coupled with React and CSS for a
               seamless and engaging user experience.
@@ -123,7 +123,7 @@ const Projects = () => {
                 <MdOutlineArrowOutward size={15} />
               </span>
             </p>
-            <p className=" mt-[10px] text-[14px] ">
+            <p className=" mt-[10px] text-[14px]  leading-7 ">
               The Star Wars project demonstrates my proficiency in API
               integration, utilizing an open backend API to list movies from the
               Star Wars franchise and showcase their respective characters.
@@ -171,8 +171,8 @@ const Projects = () => {
                 <MdOutlineArrowOutward size={15} />
               </span>
             </p>
-            <p className=" mt-[10px] text-[14px] ">
-              My portfolio demonstrates my proficiency in Next.js, complemented
+            <p className=" mt-[10px] text-[14px]  leading-7 ">
+              My portfolio demonstrates my proficiency in Next.js, complemented 
               by the use of Tailwind CSS and CSS animation libraries.
             </p>
             <div className="flex mt-[10px] flex-wrap gap-2 desktop:gap-4">
