@@ -34,8 +34,26 @@ body {
     text-wrap: balance;
   }
 }
-.hovered {
-  font-size:40px;
-  background: red;
-   /* Change this to your desired background color */
+
+@keyframes colorChangeS {
+  0% { color: #1aecc9; }
+  10% { color:rgb(58, 19, 62)9; }
+
+  25% { color: #79dec5; }
+  0% { color: #053b32; }
+  61% { color: #04e6c0; }
+  0% { color: #053b32; }
+  75% { color: #04e6c0; }
+  0% { color: #28cfb3; }
 }
+
+
+/* Add more keyframes for other letters if needed */
+
+.animate-color-change-s {
+  display: inline-block;
+  animation: colorChangeS 2s infinite;
+}
+
+
+/* Add more classes for other letters if needed */
