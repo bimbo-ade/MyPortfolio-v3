@@ -3,12 +3,12 @@ import React from "react";
 const Experience = () => {
   return (
     <div className="group">
-      <div className="  mt-[30px] tablet:flex tablet:my-[40px] w-[100%] laptop:w-[480px] desktop:w-[610px] laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]">
-        <p className="mb-[10px] tablet:w-[20%] desktop:w-[23%] tracking-[1px]  mr-[22px] text-[11px]">
+      <div className="  mt-[30px] tablet:flex tablet:my-[80px]   laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]">
+        <p className="mb-[10px] tracking-[1px] tablet:mr-[20px] text-[11px]">
           {" "}
           Mar 2023 - PRESENT
         </p>
-        <div className=" tablet:w-[80%] laptop:w-[90%]  desktop:w-[70%] ">
+        <div className=" tablet:w-[80%] laptop:w-[70%]  ">
           {" "}
           <p className="text-[#53DD89] text-[14px] desktop:text-[16px]">
             {" "}
@@ -17,7 +17,7 @@ const Experience = () => {
           <p className="hidden text-[14px] opacity-[0.6] tablet:block">
             Frontend Engineer
           </p>
-          <p className=" mt-[10px]    desktop:w-[400px] text-[14px]">
+          <p className=" mt-[10px]  text-[14px]">
             In my role, I actively collaborated with a diverse team of frontend
             and backend developers, designers, and product managers to
             successfully bring our product to life. I played a pivotal role in a
@@ -65,12 +65,12 @@ const Experience = () => {
           </div>
         </div>
       </div>{" "}
-      <div className="  mt-[30px] tablet:flex tablet:my-[40px] w-[100%] laptop:w-[480px] desktop:w-[610px] laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]">
-        <p className="mb-[10px] tablet:w-[20%] desktop:w-[23%] tracking-[1px]  mr-[22px] text-[11px]">
+      <div className="  my-[80px] tablet:flex tablet:my-[80px]   laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]">
+      <p className="mb-[10px] tracking-[1px] tablet:mr-[20px] text-[11px]">
           {" "}
           Oct 2022 - Jan 2023
         </p>
-        <div className=" tablet:w-[80%] laptop:w-[90%]  desktop:w-[70%] ">
+        <div className=" tablet:w-[80%] laptop:w-[70%]  ">
           {" "}
           <p className="text-[#53DD89] text-[14px] laptop:text-[16px]">
             Frontend Engineer . HNG
@@ -78,7 +78,7 @@ const Experience = () => {
           <p className="hidden text-[14px] opacity-[0.6] tablet:block">
             Frontend Engineer
           </p>{" "}
-          <p className=" mt-[10px]    desktop:w-[400px] text-[14px]">
+          <p className=" mt-[10px]  text-[14px]">
             As a pivotal member in the creation of our flagship product at HNG,
             I collaborated closely with frontend and backend developers,
             designers, and product managers. Together, we navigated the dynamic
@@ -111,12 +111,12 @@ const Experience = () => {
           </div>
         </div>
       </div>{" "}
-      <div className="  mt-[30px] tablet:flex tablet:my-[40px] w-[100%] laptop:w-[480px] desktop:w-[610px] laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]">
-      <p className="mb-[10px] tablet:w-[20%] desktop:w-[23%] tracking-[1px]  mr-[22px] text-[11px]">
+      <div className="  my-[80px] tablet:flex tablet:my-[80px]   laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]">
+      <p className="mb-[10px] tracking-[1px] tablet:mr-[20px] text-[11px]">
           {" "}
           Sept 2021 - Oct 2022
         </p>
-        <div className=" tablet:w-[80%] laptop:w-[90%]  desktop:w-[70%] ">
+        <div className=" tablet:w-[80%] laptop:w-[70%]  ">
           {" "}
           <p className="text-[#53DD89] text-[14px] laptop:text-[16px]">
             {" "}
@@ -125,7 +125,7 @@ const Experience = () => {
           <p className="hidden text-[14px] opacity-[0.6] tablet:block">
             UI Developer & Frontend Engineer
           </p>
-          <p className=" mt-[10px]    desktop:w-[400px] text-[14px]">
+          <p className=" mt-[10px]  text-[14px]">
             As a key member of the development team at [Company Name], I played
             a vital role in translating design concepts into functional web
             applications. I spearheaded design recreation, ensuring seamless

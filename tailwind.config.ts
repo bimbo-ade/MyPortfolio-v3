@@ -9,11 +9,11 @@ const config: Config = {
   theme: {
     screens: {
       phone: "320px",
-      tablet: "481px",
+      tablet: "641px",
 
-      laptop: "1024px",
+      laptop: "1022px",
 
-      desktop: "1024px",
+      desktop: "1280px",
     },
     extend: {
       backgroundImage: {

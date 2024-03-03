@@ -5,14 +5,14 @@ import Image from "next/image";
 import flower from "@/public/assets/images/flower.jpg";
 const Projects = () => {
   return (
-    <div className="desktop:w-[560px]">
+    <div className="">
       <div className="my-[50px]">
         {" "}
         <a
           href="https://abimbola-adeyemi.vercel.app"
           target="_blank"
           rel="noopener noreferrer"
-          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex   laptop:w-[480px] desktop:w-[610px]  laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]"
+          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex    laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]"
         >
           <Image
             src={flower}
@@ -59,7 +59,7 @@ const Projects = () => {
           href="https://myfoodlang.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
-          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex  laptop:w-[480px] desktop:w-[610px]  laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]"
+          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex   laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]"
         >
           <Image
             src={flower}
@@ -107,7 +107,7 @@ const Projects = () => {
           href="https://starwarspj.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
-          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex laptop:w-[480px] desktop:w-[610px] laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]"
+          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]"
         >
           <Image
             src={flower}
@@ -155,7 +155,7 @@ const Projects = () => {
           href="https://www.instagram.com/damisayrah_/"
           target="_blank"
           rel="noopener noreferrer"
-          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex  laptop:w-[480px] desktop:w-[610px] laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]"
+          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex  laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]"
         >
           <Image
             src={flower}

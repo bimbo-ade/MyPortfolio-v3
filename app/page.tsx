@@ -118,8 +118,8 @@ export default function Page() {
             animate="default"
             className="cursor-highlight"
           />{" "} */}
-          <div className=" tablet:p-8 laptop:flex    laptop:h-screen overflow-hidden  m-auto ">
-            <div className="laptop:w-[46%] desktop:ml-[5%]  mt-[20px]    laptop:px-[50px]  p-4">
+          <div className=" tablet:p-8 laptop:flex laptop:h-screen overflow-hidden max-w-[1300px]  m-auto ">
+            <div className="laptop:w-[50%] mt-[20px] laptop:p-[50px]  p-5">
               <div>
                 <motion.div variants={itemVariants}>
                   {" "}
@@ -130,7 +130,7 @@ export default function Page() {
                   />
                 </motion.div>
                 <motion.div variants={itemVariants}>
-                  <p className="text-[14px] w-[100%] laptop:text-[16px] tablet:w-[300px] laptop:w-[360px] mt-[10px] text-[#9bb8d2]">
+                  <p className="text-[16px]  w-[100%] laptop:text-[16px] tablet:w-[300px] laptop:w-[360px] mt-[10px] text-[#9bb8d2]">
                     {" "}
                     Frontend developer with a passion for crafting seamless web
                     experiences using Next.js, React, TypeScript, and CSS.
@@ -291,19 +291,19 @@ export default function Page() {
               </motion.div>
             </div>
             {/* Right Scrollable Content */}{" "}
-            <div className="flex-1 overflow-y-auto h-full px-4 py-[80px]  tablet:pt-[100px] laptop:py-[60px] mx-2 scrollbar-none">
+            <div className="flex overflow-y-auto h-full pt-[80px] p-5 tablet:pt-[100px]  laptop:w-[50%] scrollbar-none">
               <motion.div variants={itemVariants}>
                 <section
                   id="textForSection1"
                   onMouseEnter={() => handleMouseEnter("section1")}
                   onMouseLeave={handleMouseLeave}
-                  className="mb-10 laptop:w-[470px] desktop:w-[560px]"
+                  className="mb-10  "
                 >
                   <p className="my-[30px] text-[12px] text-white font-bold tracking-[2px] laptop:hidden">
                     ABOUT
                   </p>
 
-                  <p className="text-[14px]">
+                  <p className="text-[16px] leading-7">
                     Hi! Im a frontend developer specializing in React.js
                     Next.js, TypeScript and CSS. I create responsive web
                     applications with a focus on seamless user experiences.My
@@ -313,7 +313,7 @@ export default function Page() {
                     experiences and I have a strong understanding of usability
                     and accessibility standards.
                   </p>
-                  <p className="mt-[22px] text-[14px]">
+                  <p className="mt-[22px] text-[16px] leading-8">
                     Recently, Ive ventured into the dynamic world of mobile app
                     creation with{" "}
                     <span className="tracking-[3px] text-[#53DD89]">
@@ -322,7 +322,7 @@ export default function Page() {
                     , broadening my skill set to bring engaging experiences to
                     both web and mobile platforms.
                   </p>
-                  <p className="mt-[22px] text-[14px]">
+                  <p className="mt-[22px] text-[16px] leading-8">
                     In my life outside coding, youll often find me immersed in
                     captivating movie marathons, enjoying quality time with
                     friends, or embarking on thrilling gaming adventures. Just
@@ -330,7 +330,7 @@ export default function Page() {
                     film, the warmth of friendships, and the excitement of
                     virtual realms.
                   </p>
-                  <p className="mt-[22px] text-[14px]">
+                  <p className="mt-[22px] text-[16px] leading-8">
                     {" "}
                     Im always eager to collaborate on exciting projects or
                     discuss the latest trends in frontend development. Lets
@@ -342,7 +342,7 @@ export default function Page() {
                   id="textForSection2"
                   onMouseEnter={() => handleMouseEnter("section2")}
                   onMouseLeave={handleMouseLeave}
-                  className=" my-[120px] laptop:w-[470px] laptop:my-[180px] desktop:w-[560px]"
+                  className=" my-[120px]"
                 >
                   {" "}
                   <p className="mt-[30px] text-[12px] text-white font-bold tracking-[2px] laptop:hidden">
@@ -351,7 +351,7 @@ export default function Page() {
                   <Experience />
                 </section>
                 <section
-                  className=" my-[120px] laptop:w-[470px] laptop:my-[180px] desktop:w-[560px]"
+                  className=" my-[120px] laptop:w-[100%] laptop:my-[180px] desktop:w-[560px]"
                   id="textForSection3"
                   onMouseEnter={() => handleMouseEnter("section3")}
                   onMouseLeave={handleMouseLeave}
@@ -362,12 +362,11 @@ export default function Page() {
                   <Projects />
                 </section>
                 <section
-                  className="pt-[20px] "
                   id="textForSection4"
                   onMouseEnter={() => handleMouseEnter("section4")}
                   onMouseLeave={handleMouseLeave}
                 >
-                  <p className="text-[#53DD89] flex tracking-[2px] uppercase text-[12px] tablet:text-[14px]">
+                  <p className="text-[#53DD89] flex tracking-[2px] h-[90px] uppercase text-[12px] tablet:text-[14px]">
                     <a href="/resume">Download Resume </a>
                     <span className=" ml-[7px]">
                       <MdOutlineArrowDownward size={19} />
