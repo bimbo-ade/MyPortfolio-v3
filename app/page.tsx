@@ -138,7 +138,7 @@ export default function Page() {
                     /> */}
                     <p className="  text-[30px] tablet: text-[35px]  tracking-[1px] mt-[65px] w-[290px] tablet:mt-[30px]  tablet:w-[100%] uppercase mb-[-30px] tablet:mb-[30px] text-white">
                       {" "}
-                      <span>I'</span>
+                      <span>I</span>
                       <span>M</span>
                       <span className="mx-[200px] tablet:mx-[2px]"> </span>
                       <span>A</span>
