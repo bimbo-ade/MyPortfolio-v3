@@ -126,11 +126,12 @@ export default function Page() {
                   <Image
                     src={name}
                     alt=""
-                    className="tablet:w-[330px] tablet:w-[400px] w-[200px]"
+                    className="tablet:w-[330px] hidden tablet:block tablet:w-[400px] w-[200px]"
                   />
+                  <p className="tablet:hidden font-bold text-[30px] tracking-[-2px] mt-[20px] text-white">Abimbola Adeyemi</p>
                 </motion.div>
                 <motion.div variants={itemVariants}>
-                  <p className="text-[16px]  w-[100%] laptop:text-[16px] tablet:w-[300px] laptop:w-[360px] mt-[10px] text-[#9bb8d2]">
+                  <p className="text-[16px]  w-[100%] laptop:text-[16px] tablet:w-[300px] laptop:w-[360px] mt-[10px] text-[#a9bdcf]">
                     {" "}
                     Frontend developer with a passion for crafting seamless web
                     experiences using Next.js, React, TypeScript, and CSS.
@@ -152,15 +153,15 @@ export default function Page() {
                         className={`${
                           isSectionActive("section1")
                             ? "text-[#53DD89] group flex items-center tracking-[5px] "
-                            : "hover:text-white group flex items-center tracking-[5px] text-[#9bb8d2]"
+                            : "hover:text-white group flex items-center tracking-[5px] text-[#a9bdcf]"
                         }`}
                       >
                         <div
                           id="textForSection1"
                           className={` ${
                             isSectionActive("section1")
-                              ? "w-[60px] mr-[7px] h-[1px]  bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"
-                              : "w-[30px] mr-[7px] h-[1px] bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"
+                              ? "w-[60px] mr-[7px] h-[1px]  bg-[#a9bdcf] transition-all duration-200 ease-in-out group-hover:w-[50px]"
+                              : "w-[30px] mr-[7px] h-[1px] bg-[#a9bdcf] transition-all duration-200 ease-in-out group-hover:w-[50px]"
                           }`}
                         ></div>
                         About
@@ -177,14 +178,14 @@ export default function Page() {
                         className={`${
                           isSectionActive("section2")
                             ? "text-[#53DD89] group flex items-center tracking-[5px] "
-                            : "hover:text-white group flex items-center tracking-[5px] text-[#9bb8d2]"
+                            : "hover:text-white group flex items-center tracking-[5px] text-[#a9bdcf]"
                         }`}
                       >
                         <div
                           className={`${
                             isSectionActive("section2")
-                              ? "w-[60px] mr-[7px] h-[1px]  bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"
-                              : "w-[30px] mr-[7px] h-[1px] bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"
+                              ? "w-[60px] mr-[7px] h-[1px]  bg-[#a9bdcf] transition-all duration-200 ease-in-out group-hover:w-[50px]"
+                              : "w-[30px] mr-[7px] h-[1px] bg-[#a9bdcf] transition-all duration-200 ease-in-out group-hover:w-[50px]"
                           }`}
                         ></div>
                         Experience{" "}
@@ -201,15 +202,15 @@ export default function Page() {
                         className={`${
                           isSectionActive("section3")
                             ? "text-[#53DD89] group flex items-center tracking-[5px] "
-                            : "hover:text-white group flex items-center tracking-[5px] text-[#9bb8d2]"
+                            : "hover:text-white group flex items-center tracking-[5px] text-[#a9bdcf]"
                         }`}
                       >
                         <div
                           id="textForSection3"
                           className={`${
                             isSectionActive("section3")
-                              ? "w-[60px] mr-[7px] h-[1px]  bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"
-                              : "w-[30px] mr-[7px] h-[1px] bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"
+                              ? "w-[60px] mr-[7px] h-[1px]  bg-[#a9bdcf] transition-all duration-200 ease-in-out group-hover:w-[50px]"
+                              : "w-[30px] mr-[7px] h-[1px] bg-[#a9bdcf] transition-all duration-200 ease-in-out group-hover:w-[50px]"
                           }`}
                         ></div>
                         Projects
@@ -226,15 +227,15 @@ export default function Page() {
                         className={`${
                           isSectionActive("section4")
                             ? "text-[#53DD89] group flex items-center tracking-[5px] "
-                            : "hover:text-white group flex items-center tracking-[5px] text-[#9bb8d2]"
+                            : "hover:text-white group flex items-center tracking-[5px] text-[#a9bdcf]"
                         }`}
                       >
                         <div
                           id="textForSection4"
                           className={`${
                             isSectionActive("section4")
-                              ? "w-[60px] mr-[7px] h-[1px]  bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"
-                              : "w-[30px] mr-[7px] h-[1px] bg-[#9bb8d2] transition-all duration-200 ease-in-out group-hover:w-[50px]"
+                              ? "w-[60px] mr-[7px] h-[1px]  bg-[#a9bdcf] transition-all duration-200 ease-in-out group-hover:w-[50px]"
+                              : "w-[30px] mr-[7px] h-[1px] bg-[#a9bdcf] transition-all duration-200 ease-in-out group-hover:w-[50px]"
                           }`}
                         ></div>
                         Resume{" "}
