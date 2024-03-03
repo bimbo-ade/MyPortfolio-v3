@@ -11,7 +11,7 @@ import {
   AiFillTwitterCircle,
   AiFillInstagram,
 } from "react-icons/ai";
-import { BsTelephone } from "react-icons/bs";
+import { FaLinkedinIn } from "react-icons/fa";
 import SplashScreen from "./components/splash-screen/splash-screen";
 import { motion } from "framer-motion";
 import "./components/cursor-highlight/cursor.css";
@@ -136,9 +136,9 @@ export default function Page() {
                       alt=""
                       className="tablet:w-[330px] hidden tablet:block tablet:w-[400px] w-[200px]"
                     /> */}
-                    <p className="  text-[35px] tracking-[1px] mt-[65px] w-[290px]  tablet:w-[100%] uppercase mb-[-30px] tablet:mb-[30px] text-white">
+                    <p className="  text-[30px] tablet: text-[35px]  tracking-[1px] mt-[65px] w-[290px] tablet:mt-[30px]  tablet:w-[100%] uppercase mb-[-30px] tablet:mb-[30px] text-white">
                       {" "}
-                      <span>I</span>
+                      <span>I'</span>
                       <span>M</span>
                       <span className="mx-[200px] tablet:mx-[2px]"> </span>
                       <span>A</span>
@@ -291,7 +291,7 @@ export default function Page() {
                         rel="noopener noreferrer"
                       >
                         {" "}
-                        <AiOutlineGithub size={25} />
+                        <FaLinkedinIn size={25} />
                       </a>
                       <a
                         href="https://twitter.com/damisayrah_"
