@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <div className="group">
       <div className="  mt-[30px] tablet:flex tablet:my-[50px]   laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]">
-        <p className="mb-[10px] tracking-[1px] tablet:mr-[20px] text-[11px]">
+        <p className="mb-[10px] tracking-[1px] tablet:mr-[20px] text-[12px]">
           {" "}
           Mar 2023 - PRESENT
         </p>
@@ -17,7 +17,7 @@ const Experience = () => {
           <p className="hidden text-[14px] opacity-[0.6] tablet:block">
             Frontend Engineer
           </p>
-          <p className=" mt-[10px]  text-[14px]  leading-7">
+          <p className=" mt-[10px]  text-[16px]  leading-7">
             In my role, I actively collaborated with a diverse team of frontend
             and backend developers, designers, and product managers to
             successfully bring our product to life. I played a pivotal role in a
@@ -66,7 +66,7 @@ const Experience = () => {
         </div>
       </div>{" "}
       <div className="  my-[80px] tablet:flex tablet:my-[80px]   laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]">
-      <p className="mb-[10px] tracking-[1px] tablet:mr-[20px] text-[11px]">
+      <p className="mb-[10px] tracking-[1px] tablet:mr-[20px] text-[12px]">
           {" "}
           Oct 2022 - Jan 2023
         </p>
@@ -78,7 +78,7 @@ const Experience = () => {
           <p className="hidden text-[14px] opacity-[0.6] tablet:block">
             Frontend Engineer
           </p>{" "}
-          <p className=" mt-[10px]  text-[14px]  leading-7">
+          <p className=" mt-[10px]  text-[16px]  leading-7">
             As a pivotal member in the creation of our flagship product at HNG,
             I collaborated closely with frontend and backend developers,
             designers, and product managers. Together, we navigated the dynamic
@@ -112,7 +112,7 @@ const Experience = () => {
         </div>
       </div>{" "}
       <div className="  my-[80px] tablet:flex tablet:my-[80px]   laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]">
-      <p className="mb-[10px] tracking-[1px] tablet:mr-[20px] text-[11px]">
+      <p className="mb-[10px] tracking-[1px] tablet:mr-[20px] text-[12px]">
           {" "}
           Sept 2021 - Oct 2022
         </p>
@@ -125,7 +125,7 @@ const Experience = () => {
           <p className="hidden text-[14px] opacity-[0.6] tablet:block">
             UI Developer & Frontend Engineer
           </p>
-          <p className=" mt-[10px]  text-[14px]  leading-7">
+          <p className=" mt-[10px]  text-[16px]  leading-7">
             As a key member of the development team at [Company Name], I played
             a vital role in translating design concepts into functional web
             applications. I spearheaded design recreation, ensuring seamless

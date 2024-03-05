@@ -340,7 +340,7 @@ export default function Page() {
                       ABOUT
                     </p>
 
-                    <p className="text-[16px] leading-7 tablet:text-[16px]">
+                    <p className="text-[16px] leading-7 ">
                       Hi! Im a frontend developer specializing in React.js
                       Next.js, TypeScript and CSS. I create responsive web
                       applications with a focus on seamless user experiences.My
@@ -350,7 +350,7 @@ export default function Page() {
                       user experiences and I have a strong understanding of
                       usability and accessibility standards.
                     </p>
-                    <p className="mt-[22px] text-[16px] leading-7 tablet:text-[16px]">
+                    <p className="mt-[22px] text-[16px] leading-7 ">
                       Recently, Ive ventured into the dynamic world of mobile
                       app creation with{" "}
                       <span className="tracking-[3px] text-[#53DD89]">
@@ -359,7 +359,7 @@ export default function Page() {
                       , broadening my skill set to bring engaging experiences to
                       both web and mobile platforms.
                     </p>
-                    <p className="mt-[22px] text-[14px] leading-7 tablet:text-[16px]">
+                    <p className="mt-[22px] text-[14px] leading-7 ">
                       In my life outside coding, youll often find me immersed in
                       captivating movie marathons, enjoying quality time with
                       friends, or embarking on thrilling gaming adventures. Just
@@ -367,7 +367,7 @@ export default function Page() {
                       film, the warmth of friendships, and the excitement of
                       virtual realms.
                     </p>
-                    <p className="mt-[22px] text-[14px] leading-7 tablet:text-[16px]">
+                    <p className="mt-[22px] text-[16px] leading-7 ">
                       {" "}
                       Im always eager to collaborate on exciting projects or
                       discuss the latest trends in frontend development. Lets
