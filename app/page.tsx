@@ -136,7 +136,7 @@ export default function Page() {
                       alt=""
                       className="tablet:w-[330px] hidden tablet:block tablet:w-[400px] w-[200px]"
                     /> */}
-                    <p className="  text-[30px] tablet: text-[35px]  tracking-[1px] mt-[65px] w-[290px] tablet:mt-[30px]  tablet:w-[100%] uppercase mb-[-30px] tablet:mb-[30px] text-white">
+                    <p className="  text-[25px] tablet: text-[35px]  tracking-[1px] mt-[65px] w-[290px] tablet:mt-[30px]  tablet:w-[100%] uppercase mb-[-30px] tablet:mb-[30px] text-white">
                       {" "}
                       <span>I</span>
                       <span>M</span>
@@ -340,7 +340,7 @@ export default function Page() {
                       ABOUT
                     </p>
 
-                    <p className="text-[14px] leading-7 tablet:text-[16px]">
+                    <p className="text-[16px] leading-7 tablet:text-[16px]">
                       Hi! Im a frontend developer specializing in React.js
                       Next.js, TypeScript and CSS. I create responsive web
                       applications with a focus on seamless user experiences.My
@@ -350,7 +350,7 @@ export default function Page() {
                       user experiences and I have a strong understanding of
                       usability and accessibility standards.
                     </p>
-                    <p className="mt-[22px] text-[14px] leading-7 tablet:text-[16px]">
+                    <p className="mt-[22px] text-[16px] leading-7 tablet:text-[16px]">
                       Recently, Ive ventured into the dynamic world of mobile
                       app creation with{" "}
                       <span className="tracking-[3px] text-[#53DD89]">
