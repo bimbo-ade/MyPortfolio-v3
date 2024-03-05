@@ -126,7 +126,7 @@ export default function Page() {
               alt=""
               className=" tablet:hidden mt-8  mx-4 w-[50px]"
             /> */}
-            <div className=" tablet:p-8 laptop:flex laptop:h-screen overflow-hidden tablet:max-w-[810px] laptop:max-w-[1300px] m-auto ">
+            <div className=" tablet:p-8 laptop:flex laptop:h-screen overflow-hidden tablet:max-w-[910px] laptop:max-w-[1300px] m-auto ">
               <div className="laptop:w-[50%] mt-[20px] laptop:p-[50px]  tablet:p-5">
                 <div className="p-5 tablet:p-0">
                   <motion.div variants={itemVariants}>
