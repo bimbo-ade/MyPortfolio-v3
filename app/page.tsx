@@ -121,11 +121,12 @@ export default function Page() {
             className="cursor-highlight"
           />{" "} */}
           <div className="relative h-screen ">
-            {/* <Image
-              src={letterA}
-              alt=""
-              className=" tablet:hidden mt-8  mx-4 w-[50px]"
-            /> */}
+              <div className="w-[100px] h-[5px] rounded bg-gradient-to-r from-[#53dd89] via-[#a9bdcf] to-[#80e7a7]">
+                <div className="w-[5px] h-[150px] rounded bg-gradient-to-b from-[#53dd89] via-[#a9bdcf] to-[#80e7a7]">
+                  {" "}
+                </div>
+              </div>{" "}
+              
             <div className=" tablet:p-8 laptop:flex laptop:h-screen overflow-hidden tablet:max-w-[910px] laptop:max-w-[1300px] m-auto ">
               <div className="laptop:w-[50%] mt-[20px] laptop:p-[50px]  tablet:p-5">
                 <div className="p-5 tablet:p-0">
@@ -136,7 +137,7 @@ export default function Page() {
                       alt=""
                       className="tablet:w-[330px] hidden tablet:block tablet:w-[400px] w-[200px]"
                     /> */}
-                    <p className="  text-[25px] tablet: text-[35px]  tracking-[1px] mt-[65px] w-[290px] tablet:mt-[30px]  tablet:w-[100%] uppercase mb-[-30px] tablet:mb-[30px] text-white">
+                    <p className="  text-[25px] tablet: text-[25px]  tracking-[1px] mt-[25px] w-[290px] tablet:mt-[30px]  tablet:w-[100%] uppercase mb-[-30px] tablet:mb-[30px] text-white">
                       {" "}
                       <span>I</span>
                       <span>M</span>
@@ -359,7 +360,7 @@ export default function Page() {
                       , broadening my skill set to bring engaging experiences to
                       both web and mobile platforms.
                     </p>
-                    <p className="mt-[22px] text-[14px] leading-7 ">
+                    <p className="mt-[22px] text-[16px] leading-7 ">
                       In my life outside coding, youll often find me immersed in
                       captivating movie marathons, enjoying quality time with
                       friends, or embarking on thrilling gaming adventures. Just
