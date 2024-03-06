@@ -137,11 +137,11 @@ export default function Page() {
                       alt=""
                       className="tablet:w-[330px] hidden tablet:block tablet:w-[400px] w-[200px]"
                     /> */}
-                    <p className="  text-[25px] tablet: text-[25px]  tracking-[1px] mt-[25px] w-[290px] tablet:mt-[30px]  tablet:w-[100%] uppercase mb-[-30px] tablet:mb-[30px] text-white">
+                    <p className="  text-[25px] tablet: text-[30px]  tracking-[1px] mt-[30px] w-[290px] tablet:mt-[30px]  tablet:w-[100%] uppercase mb-[-30px] tablet:mb-[30px] text-white">
                       {" "}
-                      <span>I</span>
+                      {/* <span>I</span>
                       <span>M</span>
-                      <span className="mx-[200px] tablet:mx-[2px]"> </span>
+                      <span className="mx-[200px] tablet:mx-[2px]"> </span> */}
                       <span>A</span>
                       <span className="animate-color-change-s">B</span>
                       <span className="animate-color-change-s">I</span>
