@@ -120,8 +120,8 @@ export default function Page() {
             animate="default"
             className="cursor-highlight"
           />{" "} */}
-          <div className="relative h-screen ">
-              <div className="w-[100px] h-[5px] rounded bg-gradient-to-r from-[#53dd89] via-[#a9bdcf] to-[#80e7a7]">
+          <div className="relative h-screen "  id="app-container">
+              <div className="w-[150px] h-[5px] rounded bg-gradient-to-r from-[#53dd89] via-[#a9bdcf] to-[#80e7a7]">
                 <div className="w-[5px] h-[180px] rounded bg-gradient-to-b from-[#53dd89] via-[#a9bdcf] to-[#80e7a7]">
                   {" "}
                 </div>
@@ -137,7 +137,7 @@ export default function Page() {
                       alt=""
                       className="tablet:w-[330px] hidden tablet:block tablet:w-[400px] w-[200px]"
                     /> */}
-                    <p className="  text-[25px] tablet: text-[30px]  tracking-[1px] mt-[30px] mb-[10px] w-[290px] tablet:mt-[30px]  tablet:w-[100%] uppercase mb-[-30px] tablet:mb-[30px] text-white">
+                    <p className="  text-[25px] tablet: text-[30px]  tracking-[1px] mt-[23px] mb-[5px] w-[290px] tablet:mt-[30px]  tablet:w-[100%] uppercase mb-[-30px] tablet:mb-[30px] text-white">
                       {" "}
                       {/* <span>I</span>
                       <span>M</span>
