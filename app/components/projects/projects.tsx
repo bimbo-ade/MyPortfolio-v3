@@ -6,18 +6,18 @@ import flower from "@/public/assets/images/flower.jpg";
 const Projects = () => {
   return (
     <div className="">
-      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.03] tablet:bg-transparent tablet:p-0 p-4">
+      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.013] tablet:bg-transparent tablet:p-0 p-4">
         {" "}
         <a
           href="https://abimbola-adeyemi.vercel.app"
           target="_blank"
           rel="noopener noreferrer"
-          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex    laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]"
+          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex    laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.014]"
         >
           <Image
             src={flower}
             alt=""
-            className="tablet:w-[100px] w-[150px] object-cover"
+            className="tablet:w-[100px] tablet:max-w-[130px] w-[150px] object-cover"
           />
           <div className="tablet:ml-[20px]  ">
             {" "}
@@ -28,7 +28,7 @@ const Projects = () => {
                 <MdOutlineArrowOutward size={15} />
               </span>
             </p>
-            <p className=" mt-[10px] text-[16px]  leading-7">
+            <p className=" mt-[10px] text-[16px]  ">
               My portfolio highlights my expertise in CSS animation, and I
               played a key role in its loose design.
             </p>
@@ -53,18 +53,18 @@ const Projects = () => {
           </div>
         </a>{" "}
       </div>{" "}
-      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.03] tablet:bg-transparent tablet:p-0 p-4">
+      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.013] tablet:bg-transparent tablet:p-0 p-4">
         {" "}
         <a
           href="https://myfoodlang.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
-          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex   laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]"
+          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex   laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.014]"
         >
           <Image
             src={flower}
             alt=""
-            className="tablet:w-[100px] w-[150px] object-cover"
+            className="tablet:w-[100px] tablet:max-w-[130px] w-[150px] object-cover"
           />
           <div className="tablet:ml-[20px]  ">
             {" "}
@@ -75,7 +75,7 @@ const Projects = () => {
                 <MdOutlineArrowOutward size={15} />
               </span>
             </p>
-            <p className=" mt-[10px] text-[16px]  leading-7 ">
+            <p className=" mt-[10px] text-[16px]   ">
               Foodlang is a web application featuring a menu list. It utilizes
               Redux for state management, coupled with React and CSS for a
               seamless and engaging user experience.
@@ -101,13 +101,13 @@ const Projects = () => {
           </div>
         </a>{" "}
       </div>{" "}
-      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.03] tablet:bg-transparent tablet:p-0 p-4">
+      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.013] tablet:bg-transparent tablet:p-0 p-4">
         {" "}
         <a
           href="https://starwarspj.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
-          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]"
+          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.014]"
         >
           <Image
             src={flower}
@@ -123,7 +123,7 @@ const Projects = () => {
                 <MdOutlineArrowOutward size={15} />
               </span>
             </p>
-            <p className=" mt-[10px] text-[16px]  leading-7 ">
+            <p className=" mt-[10px] text-[16px]   ">
               The Star Wars project demonstrates my proficiency in API
               integration, utilizing an open backend API to list movies from the
               Star Wars franchise and showcase their respective characters.
@@ -149,18 +149,18 @@ const Projects = () => {
           </div>
         </a>{" "}
       </div>{" "}
-      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.03] tablet:bg-transparent tablet:p-0 p-4">
+      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.013] tablet:bg-transparent tablet:p-0 p-4">
         {" "}
         <a
           href="https://www.instagram.com/damisayrah_/"
           target="_blank"
           rel="noopener noreferrer"
-          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex  laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]"
+          className=" cursor-pointer  my-[70px] w-[100%] tablet:flex  laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.014]"
         >
           <Image
             src={flower}
             alt=""
-            className="tablet:w-[100px] w-[150px] object-cover"
+            className="tablet:w-[100px] tablet:max-w-[130px] w-[150px] object-cover"
           />
           <div className="tablet:ml-[20px]  ">
             {" "}
@@ -171,7 +171,7 @@ const Projects = () => {
                 <MdOutlineArrowOutward size={15} />
               </span>
             </p>
-            <p className=" mt-[10px] text-[16px]  leading-7 ">
+            <p className=" mt-[10px] text-[16px]   ">
               My portfolio demonstrates my proficiency in Next.js, complemented 
               by the use of Tailwind CSS and CSS animation libraries.
             </p>

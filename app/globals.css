@@ -27,16 +27,18 @@ root {
   }
 }
 
-#app-container::before {
+body::before {
   content: "";
   height: 100vh;
   width: 100vw;
   background-image: linear-gradient(#53DD89 1px, transparent 1px), linear-gradient(to right, #53DD89 1px, transparent 1px);
   background-size: 100px 100px; /* Adjust the size based on your preference */
   color: rgba(113, 113, 113, 0.07);
-  opacity: 0.03;
+  opacity: 0.02;
   position: fixed;
-  z-index: -10;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Adjusted z-index */
   background-color: transparent;
   transition-duration: 0.5s;
   transition-timing-function: linear;
@@ -44,14 +46,18 @@ root {
   transition-property: all;
 }
 
-body {
+html, body {
   font-family: "Montserrat", sans-serif;
-  background: linear-gradient(70deg, #061314 0%, #0d2224 60%, #071a1c 100%);
-
-  /* background: linear-gradient(70deg, #0b1c2c, #071a1c); */
-  color: #a9bdcf;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
+body {
+  overflow: auto; /* Allow content scrolling */
+  background: linear-gradient(70deg, #061314 0%, #0d2224 60%, #071a1c 100%);
+  color: #a9bdcf;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;

@@ -120,13 +120,12 @@ export default function Page() {
             animate="default"
             className="cursor-highlight"
           />{" "} */}
-          <div className="relative h-screen "  id="app-container">
-              <div className="w-[150px] h-[5px] laptop:mt-[30px] laptop:ml-[50px] laptop:w-[300px] laptop:h-[20px]  rounded-b-[20px] bg-gradient-to-r from-[#53dd89] via-[#a9bdcf] to-[#80e7a7]">
-                <div className="w-[5px] h-[180px]  laptop:w-[20px] laptop:h-[300px] rounded-r-[20px] bg-gradient-to-b from-[#53dd89] via-[#a9bdcf] to-[#80e7a7]">
-                  {" "}
-                </div>
-              </div>{" "}
-              
+          <div className="relative h-screen " id="app-container">
+            <div className="w-[150px] h-[5px] tablet:mt-[30px] tablet:ml-[50px] tablet:w-[300px] tablet:h-[20px]  rounded-b-[20px] bg-gradient-to-r from-[#53dd89] via-[#a9bdcf] to-[#80e7a7]">
+              <div className="w-[5px] h-[180px]  tablet:w-[20px] tablet:h-[300px] rounded-r-[20px] bg-gradient-to-b from-[#53dd89] via-[#a9bdcf] to-[#80e7a7]">
+                {" "}
+              </div>
+            </div>{" "}
             <div className=" tablet:p-8 laptop:flex laptop:h-screen overflow-hidden tablet:max-w-[910px] laptop:max-w-[1300px] m-auto ">
               <div className="laptop:w-[50%] mt-[20px] laptop:p-[50px]  tablet:p-5">
                 <div className="p-5 tablet:p-0">
@@ -277,14 +276,14 @@ export default function Page() {
                 <motion.div variants={itemVariants}>
                   <div className=" mt-[30px] tablet:block laptop:mt-[150px]  ">
                     <p className="hidden laptop:block"> Lets connect</p>
-                    <div className="flex w-[100%] mt-[20px] text-white justify-between bg-[#071726] px-9  py-4 fixed bottom-0 tablet:static tablet:w-[200px] tablet:bg-transparent tablet:px-2">
+                    <div className="flex w-[100%] mt-[20px] text-white justify-between bg-[#0b2425] px-9  py-3 fixed bottom-0 tablet:static tablet:w-[200px] tablet:bg-transparent tablet:px-2">
                       <a
                         href="https://github.com/bimbo-ade"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
                         {" "}
-                        <AiOutlineGithub size={25} />
+                        <AiOutlineGithub size={22} />
                       </a>
                       <a
                         href="https://github.com/bimbo-ade"
@@ -292,14 +291,14 @@ export default function Page() {
                         rel="noopener noreferrer"
                       >
                         {" "}
-                        <FaLinkedinIn size={25} />
+                        <FaLinkedinIn size={22} />
                       </a>
                       <a
                         href="https://twitter.com/damisayrah_"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <AiFillTwitterCircle size={25} />
+                        <AiFillTwitterCircle size={22} />
                       </a>
 
                       <a
@@ -307,23 +306,16 @@ export default function Page() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <AiFillInstagram size={25} />
+                        <AiFillInstagram size={22} />
                       </a>
                       <a
                         href="mailto:bimboadeyemi65@gmail.com"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <AiOutlineMail size={25} />
+                        <AiOutlineMail size={22} />
                       </a>
 
-                      {/* <a
-              href="tel:+2348162471353"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <BsTelephone size={25}/>
-            </a> */}
                     </div>
                   </div>
                 </motion.div>
@@ -405,7 +397,7 @@ export default function Page() {
                     onMouseLeave={handleMouseLeave}
                   >
                     <p className="text-[#53DD89] flex tracking-[2px] h-[90px] uppercase text-[12px] tablet:text-[14px]">
-                      <a href="/resume">Download Resume </a>
+                      Download Resume
                       <span className=" ml-[7px]">
                         <MdOutlineArrowDownward size={19} />
                       </span>

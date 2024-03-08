@@ -3,7 +3,7 @@ import React from "react";
 const Experience = () => {
   return (
     <div className="group">
-      <div className="  mt-[30px] tablet:flex tablet:my-[50px]   laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]">
+      <div className="  mt-[30px] tablet:flex tablet:my-[50px]   laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.014]">
         <p className="mb-[10px] tracking-[1px] tablet:mr-[20px] text-[12px]">
           {" "}
           Mar 2023 - PRESENT
@@ -65,7 +65,7 @@ const Experience = () => {
           </div>
         </div>
       </div>{" "}
-      <div className="  my-[80px] tablet:flex tablet:my-[80px]   laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]">
+      <div className="  my-[80px] tablet:flex tablet:my-[80px]   laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.014]">
       <p className="mb-[10px] tracking-[1px] tablet:mr-[20px] text-[12px]">
           {" "}
           Oct 2022 - Jan 2023
@@ -111,7 +111,7 @@ const Experience = () => {
           </div>
         </div>
       </div>{" "}
-      <div className="  my-[80px] tablet:flex tablet:my-[80px]   laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.08]">
+      <div className="  my-[80px] tablet:flex tablet:my-[80px]   laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.014]">
       <p className="mb-[10px] tracking-[1px] tablet:mr-[20px] text-[12px]">
           {" "}
           Sept 2021 - Oct 2022
