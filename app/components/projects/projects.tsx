@@ -6,7 +6,7 @@ import flower from "@/public/assets/images/flower.jpg";
 const Projects = () => {
   return (
     <div className="">
-      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.013] tablet:bg-transparent tablet:p-0 p-4">
+      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.033] tablet:bg-transparent tablet:p-0 p-4">
         {" "}
         <a
           href="https://abimbola-adeyemi.vercel.app"
@@ -53,7 +53,7 @@ const Projects = () => {
           </div>
         </a>{" "}
       </div>{" "}
-      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.013] tablet:bg-transparent tablet:p-0 p-4">
+      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.033] tablet:bg-transparent tablet:p-0 p-4">
         {" "}
         <a
           href="https://myfoodlang.netlify.app/"
@@ -101,7 +101,7 @@ const Projects = () => {
           </div>
         </a>{" "}
       </div>{" "}
-      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.013] tablet:bg-transparent tablet:p-0 p-4">
+      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.033] tablet:bg-transparent tablet:p-0 p-4">
         {" "}
         <a
           href="https://starwarspj.netlify.app/"
@@ -149,7 +149,7 @@ const Projects = () => {
           </div>
         </a>{" "}
       </div>{" "}
-      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.013] tablet:bg-transparent tablet:p-0 p-4">
+      <div className="my-[50px] bg-[#9EC3FA] bg-opacity-[0.033] tablet:bg-transparent tablet:p-0 p-4">
         {" "}
         <a
           href="https://www.instagram.com/damisayrah_/"
@@ -172,7 +172,7 @@ const Projects = () => {
               </span>
             </p>
             <p className=" mt-[10px] text-[16px]   ">
-              My portfolio demonstrates my proficiency in Next.js, complemented 
+              My portfolio demonstrates my proficiency in Next.js, complemented
               by the use of Tailwind CSS and CSS animation libraries.
             </p>
             <div className="flex mt-[10px] flex-wrap gap-2 desktop:gap-4">
