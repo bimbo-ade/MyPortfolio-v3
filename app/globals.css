@@ -4,9 +4,10 @@
 /* styles/globals.css */
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
 * {
+  font-family: "Montserrat", sans-serif;
 
 }
 
@@ -33,7 +34,7 @@ root {
   background-image: linear-gradient(#53DD89 1px, transparent 1px), linear-gradient(to right, #53DD89 1px, transparent 1px);
   background-size: 100px 100px; /* Adjust the size based on your preference */
   color: rgba(113, 113, 113, 0.07);
-  opacity: 0.025;
+  opacity: 0.03;
   position: fixed;
   z-index: -10;
   background-color: transparent;
@@ -45,7 +46,9 @@ root {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background: linear-gradient(70deg, #0b1c2c, #071a1c);
+  background: linear-gradient(70deg, #0b1c2c 0%, #0e2729 60%, #071a1c 100%);
+
+  /* background: linear-gradient(70deg, #0b1c2c, #071a1c); */
   color: #a9bdcf;
 }
 

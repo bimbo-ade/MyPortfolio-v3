@@ -121,8 +121,8 @@ export default function Page() {
             className="cursor-highlight"
           />{" "} */}
           <div className="relative h-screen "  id="app-container">
-              <div className="w-[150px] h-[5px] rounded bg-gradient-to-r from-[#53dd89] via-[#a9bdcf] to-[#80e7a7]">
-                <div className="w-[5px] h-[180px] rounded bg-gradient-to-b from-[#53dd89] via-[#a9bdcf] to-[#80e7a7]">
+              <div className="w-[150px] h-[5px] laptop:mt-[30px] laptop:ml-[50px] laptop:w-[300px] laptop:h-[20px]  rounded-b-[20px] bg-gradient-to-r from-[#53dd89] via-[#a9bdcf] to-[#80e7a7]">
+                <div className="w-[5px] h-[180px]  laptop:w-[20px] laptop:h-[300px] rounded-r-[20px] bg-gradient-to-b from-[#53dd89] via-[#a9bdcf] to-[#80e7a7]">
                   {" "}
                 </div>
               </div>{" "}
@@ -137,7 +137,7 @@ export default function Page() {
                       alt=""
                       className="tablet:w-[330px] hidden tablet:block tablet:w-[400px] w-[200px]"
                     /> */}
-                    <p className="  text-[25px] tablet: text-[30px]  tracking-[1px] mt-[23px] mb-[5px] w-[290px] tablet:mt-[30px]  tablet:w-[100%] uppercase mb-[-30px] tablet:mb-[30px] text-white">
+                    <p className="  text-[25px] tablet: text-[30px]  tracking-[1px] mt-[23px] mb-[5px] w-[290px] tablet:mt-[30px] laptop:mt-[-11px] tablet:w-[100%] uppercase mb-[-30px] tablet:mb-[30px] text-white">
                       {" "}
                       {/* <span>I</span>
                       <span>M</span>
@@ -275,7 +275,7 @@ export default function Page() {
                   </div>
                 </motion.div>
                 <motion.div variants={itemVariants}>
-                  <div className=" mt-[30px] tablet:block laptop:mt-[170px]  ">
+                  <div className=" mt-[30px] tablet:block laptop:mt-[150px]  ">
                     <p className="hidden laptop:block"> Lets connect</p>
                     <div className="flex w-[100%] mt-[20px] text-white justify-between bg-[#071726] px-9  py-4 fixed bottom-0 tablet:static tablet:w-[200px] tablet:bg-transparent tablet:px-2">
                       <a
@@ -329,7 +329,7 @@ export default function Page() {
                 </motion.div>
               </div>
               {/* Right Scrollable Content */}{" "}
-              <div className="flex overflow-y-auto h-full px-5 tablet:pt-[100px]  laptop:w-[50%] scrollbar-none">
+              <div className="flex overflow-y-auto h-full px-5 tablet:pt-[50px]  laptop:w-[50%] scrollbar-none">
                 <motion.div variants={itemVariants}>
                   <section
                     id="textForSection1"

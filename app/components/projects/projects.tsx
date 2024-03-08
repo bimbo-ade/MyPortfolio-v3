@@ -112,7 +112,7 @@ const Projects = () => {
           <Image
             src={flower}
             alt=""
-            className="tablet:w-[100px] w-[150px] object-cover"
+            className="tablet:w-[100px] w-[150px] tablet:max-w-[130px] object-cover"
           />
           <div className="tablet:ml-[20px]  ">
             {" "}
