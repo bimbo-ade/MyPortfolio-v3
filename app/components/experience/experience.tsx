@@ -29,7 +29,7 @@ const Experience = () => {
             independently and as part of a collaborative team to achieve
             successful project outcomes.
           </p>
-          <div className="flex mt-[20px] flex-wrap gap-2 desktop:gap-4">
+          <div className="flex mt-[20px] flex-wrap gap-2 desktop:gap-2">
             <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.3] rounded-[40px]">
               {" "}
               Nextjs
@@ -87,7 +87,7 @@ const Experience = () => {
             only ensured a successful product launch but also fostered an
             innovative and respectful team culture.
           </p>
-          <div className="flex mt-[20px] flex-wrap gap-2 desktop:gap-4">
+          <div className="flex mt-[20px] flex-wrap gap-2 desktop:gap-2">
             <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
               {" "}
               Reactjs{" "}
@@ -111,7 +111,7 @@ const Experience = () => {
           </div>
         </div>
       </div>{" "}
-      <div className="  my-[80px] tablet:flex tablet:my-[80px]   laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.014]">
+      <div className="  my-[80px] tablet:flex tablet:my-[80px]  laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.014]">
       <p className="mb-[10px] tracking-[1px] tablet:mr-[20px] text-[12px]">
           {" "}
           Sept 2021 - Oct 2022
@@ -138,7 +138,7 @@ const Experience = () => {
             skills and provided a holistic understanding of the intersection
             between design, marketing, and customer engagement.
           </p>
-          <div className="flex mt-[20px] flex-wrap gap-2 desktop:gap-4">
+          <div className="flex mt-[20px] flex-wrap gap-2 desktop:gap-2">
             <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.3] rounded-[40px]">
               {" "}
               ReactJS
