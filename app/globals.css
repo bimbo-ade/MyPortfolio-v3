@@ -31,23 +31,26 @@ body::before {
   content: "";
   height: 100%;
   width: 100%;
+  background-color: #061314; /* Set the initial background color */
+
   background-image: linear-gradient(#53DD89 1px, transparent 1px), linear-gradient(to right, #53DD89 1px, transparent 1px);
   background-size: 100px 100px; /* Adjust the size based on your preference */
   color: rgba(113, 113, 113, 0.07);
-  opacity: 0.03;
-  position: fixed;
+  opacity: 0.036;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-  background-color: transparent;
-  transition-duration: 0.5s;
+  /* background-color: transparent; */
+  /* transition-duration: 0.5s;
   transition-timing-function: linear;
   transition-delay: 0s;
-  transition-property: all;
+  transition-property: all; */
 }
 
 html, body {
   font-family: "Montserrat", sans-serif;
+
   margin: 0;
   padding: 0;
   height: 100%;

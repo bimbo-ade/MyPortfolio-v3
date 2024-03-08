@@ -276,7 +276,7 @@ export default function Page() {
                 <motion.div variants={itemVariants}>
                   <div className=" mt-[30px] tablet:block laptop:mt-[150px]  ">
                     <p className="hidden laptop:block"> Lets connect</p>
-                    <div className="flex w-[100%] mt-[20px] text-white justify-between bg-[#0b2425] px-9  py-3 fixed bottom-0 tablet:static tablet:w-[200px] tablet:bg-transparent tablet:px-2">
+                    <div className="flex w-[100%] mt-[20px] text-white justify-between bg-[#0b2425] px-9  py-3 fixed bottom-0 tablet:static tablet:mt-[-3px] tablet:ml-[-10px] tablet:w-[200px] tablet:bg-transparent tablet:px-2">
                       <a
                         href="https://github.com/bimbo-ade"
                         target="_blank"
@@ -357,8 +357,7 @@ export default function Page() {
                       captivating movie marathons, enjoying quality time with
                       friends, or embarking on thrilling gaming adventures. Just
                       as I seek excellence in code, I appreciate the artistry in
-                      film, the warmth of friendships, and the excitement of
-                      virtual realms.
+                    these hobbies.
                     </p>
                     <p className="mt-[22px] text-[16px] leading-7 ">
                       {" "}

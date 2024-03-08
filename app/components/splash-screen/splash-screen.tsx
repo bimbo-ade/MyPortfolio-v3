@@ -13,7 +13,7 @@ const SplashScreen: React.FC = () => {
           src={letterA}
           alt=""
           // width={140}
-          className="tablet:w-[90px] laptop:w-[140px] w-[60px]"
+          className="tablet:w-[90px] laptop:w-[80px] w-[60px]"
         />{" "}
       </div>
     </div>

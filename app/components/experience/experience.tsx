@@ -17,7 +17,7 @@ const Experience = () => {
           <p className="hidden text-[14px] opacity-[0.6] tablet:block">
             Frontend Engineer
           </p>
-          <p className=" mt-[10px]  text-[16px]  leading-7">
+          <p className=" mt-[10px]  text-[16px]  ">
             In my role, I actively collaborated with a diverse team of frontend
             and backend developers, designers, and product managers to
             successfully bring our product to life. I played a pivotal role in a
@@ -78,7 +78,7 @@ const Experience = () => {
           <p className="hidden text-[14px] opacity-[0.6] tablet:block">
             Frontend Engineer
           </p>{" "}
-          <p className=" mt-[10px]  text-[16px]  leading-7">
+          <p className=" mt-[10px]  text-[16px]  ">
             As a pivotal member in the creation of our flagship product at HNG,
             I collaborated closely with frontend and backend developers,
             designers, and product managers. Together, we navigated the dynamic
@@ -125,7 +125,7 @@ const Experience = () => {
           <p className="hidden text-[14px] opacity-[0.6] tablet:block">
             UI Developer & Frontend Engineer
           </p>
-          <p className=" mt-[10px]  text-[16px]  leading-7">
+          <p className=" mt-[10px]  text-[16px]  ">
             As a key member of the development team at [Company Name], I played
             a vital role in translating design concepts into functional web
             applications. I spearheaded design recreation, ensuring seamless
