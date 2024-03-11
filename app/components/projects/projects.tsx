@@ -3,6 +3,10 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 
 import Image from "next/image";
 import flower from "@/public/assets/images/flower.jpg";
+import hood from "@/public/assets/images/hood.png";
+import foodlang from "@/public/assets/images/foodlang.png";
+import starwars from "@/public/assets/images/starwars.jpg";
+
 const Projects = () => {
   return (
     <div className="">
@@ -15,9 +19,9 @@ const Projects = () => {
           className=" cursor-pointer  my-[70px] laptop:my-[1px]  w-[100%] tablet:flex    laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.014]"
         >
           <Image
-            src={flower}
+            src={hood}
             alt=""
-            className="tablet:w-[100px] tablet:max-w-[130px] w-[150px] object-cover"
+            className="tablet:w-[140px] tablet:max-w-[160px] w-[150px] object-cover border border-[#c5c5c5] border-opacity-[0.5] p-1"
           />
           <div className="tablet:ml-[20px]  ">
             {" "}
@@ -29,8 +33,7 @@ const Projects = () => {
               </span>
             </p>
             <p className=" mt-[10px] text-[16px]  ">
-              My portfolio highlights my expertise in CSS animation, and I
-              played a key role in its loose design.
+              My portfolio highlights my expertise in CSS animation, and responsive design
             </p>
             <div className="flex mt-[10px] flex-wrap gap-2 desktop:gap-2">
               <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-opacity-[0.7] text-[12px] bg-opacity-[0.08] rounded-[40px]">
@@ -64,7 +67,7 @@ const Projects = () => {
           <Image
             src={flower}
             alt=""
-            className="tablet:w-[100px] tablet:max-w-[130px] w-[150px] object-cover"
+            className="tablet:w-[140px] tablet:max-w-[160px]  w-[150px] border border-[#c5c5c5] border-opacity-[0.5] object-cover"
           />
           <div className="tablet:ml-[20px]  ">
             {" "}
@@ -110,9 +113,9 @@ const Projects = () => {
           className=" cursor-pointer  my-[70px] laptop:my-[1px] w-[100%] tablet:flex laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.014]"
         >
           <Image
-            src={flower}
+            src={starwars}
             alt=""
-            className="tablet:w-[100px] w-[150px] tablet:max-w-[130px] object-cover"
+            className="tablet:w-[140px] tablet:max-w-[160px] w-[150px] object-cover border border-[#c5c5c5] border-opacity-[0.5]"
           />
           <div className="tablet:ml-[20px]  ">
             {" "}
@@ -160,7 +163,7 @@ const Projects = () => {
           <Image
             src={flower}
             alt=""
-            className="tablet:w-[100px] tablet:max-w-[130px] w-[150px] object-cover"
+            className="tablet:w-[140px] tablet:max-w-[160px]   w-[150px] border border-[#c5c5c5] border-opacity-[0.5] object-cover"
           />
           <div className="tablet:ml-[20px]  ">
             {" "}

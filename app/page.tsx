@@ -1,9 +1,7 @@
 // Layout.tsx
 "use client";
 import React, { ReactNode, useState, useEffect } from "react";
-import Image from "next/image";
-import name from "../public/assets/images/name.png";
-import abims from "../public/assets/images/abims.png";
+import { MdDownload } from "react-icons/md";
 
 import {
   AiOutlineMail,
@@ -105,7 +103,7 @@ export default function Page() {
 
   const isSectionActive = (sectionId: any) => activeSection === sectionId;
 
-  const abims = '/assets/images/pdff.pdf'
+  const abims = "/assets/images/name.png";
 
   return (
     <div>
@@ -363,9 +361,9 @@ export default function Page() {
                     </p>
                     <p className="mt-[22px] text-[16px] leading-7 ">
                       {" "}
-                      Always eager to collaborate on exciting projects or
-                      discuss the latest trends in frontend development. Lets
-                      build something amazing together!
+                      Eager to collaborate on dynamic projects and engage in
+                      discussions about the latest trends in frontend
+                      development. Let's create something remarkable together!
                     </p>
                     {/* Add content for Section 1 */}
                   </section>
@@ -398,10 +396,10 @@ export default function Page() {
                     onMouseLeave={handleMouseLeave}
                   >
                     <a href={abims} download="Abimbola Adeyemi Resume">
-                      <p className="text-[#53DD89] flex tracking-[2px] h-[90px] uppercase text-[12px] tablet:text-[14px]">
+                      <p className="text-[#53DD89] flex tracking-[2px] mb-[40px] tablet:mb-[1px] h-[90px] uppercase text-[12px] tablet:text-[14px]">
                         Download Resume
                         <span className=" ml-[7px]">
-                          <MdOutlineArrowDownward size={19} />
+                          <MdDownload size={20} />
                         </span>
                       </p>{" "}
                     </a>
