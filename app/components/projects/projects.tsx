@@ -33,19 +33,19 @@ const Projects = () => {
               played a key role in its loose design.
             </p>
             <div className="flex mt-[10px] flex-wrap gap-2 desktop:gap-2">
-              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
+              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-opacity-[0.7] text-[12px] bg-opacity-[0.08] rounded-[40px]">
                 {" "}
                 Reactjs
               </p>{" "}
-              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
+              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-opacity-[0.7] text-[12px] bg-opacity-[0.08] rounded-[40px]">
                 {" "}
                 Framer Motion{" "}
               </p>{" "}
-              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
+              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-opacity-[0.7] text-[12px] bg-opacity-[0.08] rounded-[40px]">
                 {" "}
                 React Particles{" "}
               </p>{" "}
-              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
+              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-opacity-[0.7] text-[12px] bg-opacity-[0.08] rounded-[40px]">
                 {" "}
                 JavaScript{" "}
               </p>{" "}
@@ -68,7 +68,7 @@ const Projects = () => {
           />
           <div className="tablet:ml-[20px]  ">
             {" "}
-            <p className="text-[#53DD89]  flex mt-[20px] tablet:mt-0 flex tracking-[2px] uppercase text-[12px]">
+            <p className="text-[#53DD89]   flex mt-[20px] tablet:mt-0 flex tracking-[2px] uppercase text-[12px]">
               {" "}
               FoodLang{" "}
               <span className=" ml-[7px]">
@@ -81,19 +81,19 @@ const Projects = () => {
               seamless and engaging user experience.
             </p>
             <div className="flex mt-[10px] flex-wrap gap-2 desktop:gap-2">
-              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
+              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-opacity-[0.7] text-[12px] bg-opacity-[0.08] rounded-[40px]">
                 {" "}
                 Reactjs
               </p>{" "}
-              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
+              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-opacity-[0.7] text-[12px] bg-opacity-[0.08] rounded-[40px]">
                 {" "}
                 Redux{" "}
               </p>{" "}
-              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
+              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-opacity-[0.7] text-[12px] bg-opacity-[0.08] rounded-[40px]">
                 {" "}
                 HTML & CSS{" "}
               </p>{" "}
-              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
+              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-opacity-[0.7] text-[12px] bg-opacity-[0.08] rounded-[40px]">
                 {" "}
                 Figma{" "}
               </p>{" "}
@@ -116,7 +116,7 @@ const Projects = () => {
           />
           <div className="tablet:ml-[20px]  ">
             {" "}
-            <p className="text-[#53DD89]  flex mt-[20px] tablet:mt-0 flex tracking-[2px] uppercase text-[12px]">
+            <p className="text-[#53DD89] flex mt-[20px] tablet:mt-0 flex tracking-[2px] uppercase text-[12px]">
               {" "}
               STARWARS{" "}
               <span className=" ml-[7px]">
@@ -129,19 +129,19 @@ const Projects = () => {
               Star Wars franchise and showcase their respective characters.
             </p>
             <div className="flex mt-[10px] flex-wrap gap-2 desktop:gap-2">
-              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
+              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-opacity-[0.7] text-[12px] bg-opacity-[0.08] rounded-[40px]">
                 {" "}
                 Reactjs
               </p>{" "}
-              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
+              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-opacity-[0.7] text-[12px] bg-opacity-[0.08] rounded-[40px]">
                 {" "}
                 HTML & CSS
               </p>{" "}
-              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
+              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-opacity-[0.7] text-[12px] bg-opacity-[0.08] rounded-[40px]">
                 {" "}
                 JavaScript
               </p>{" "}
-              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
+              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-opacity-[0.7] text-[12px] bg-opacity-[0.08] rounded-[40px]">
                 {" "}
                 Axios
               </p>{" "}
@@ -164,7 +164,7 @@ const Projects = () => {
           />
           <div className="tablet:ml-[20px]  ">
             {" "}
-            <p className="text-[#53DD89]  flex mt-[20px] tablet:mt-0 flex tracking-[2px] uppercase text-[12px]">
+            <p className="text-[#53DD89]   flex mt-[20px] tablet:mt-0 flex tracking-[2px] uppercase text-[12px]">
               {" "}
               PORTFOLIO V3{" "}
               <span className=" ml-[7px]">
@@ -176,15 +176,15 @@ const Projects = () => {
               by the use of Tailwind CSS and CSS animation libraries.
             </p>
             <div className="flex mt-[10px] flex-wrap gap-2 desktop:gap-2">
-              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
+              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-opacity-[0.7] text-[12px] bg-opacity-[0.08] rounded-[40px]">
                 {" "}
                 Nextjs{" "}
               </p>{" "}
-              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
+              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-opacity-[0.7] text-[12px] bg-opacity-[0.08] rounded-[40px]">
                 {" "}
                 Framer Motion{" "}
               </p>{" "}
-              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-[12px] bg-opacity-[0.2] rounded-[40px]">
+              <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-opacity-[0.7] text-[12px] bg-opacity-[0.08] rounded-[40px]">
                 {" "}
                 Tailwind CSS{" "}
               </p>{" "}

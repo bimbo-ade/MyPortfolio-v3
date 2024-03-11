@@ -3,7 +3,7 @@
 import React, { ReactNode, useState, useEffect } from "react";
 import Image from "next/image";
 import name from "../public/assets/images/name.png";
-import letterA from "../public/assets/images/letterA.png";
+import abims from "../public/assets/images/abims.png";
 
 import {
   AiOutlineMail,
@@ -19,6 +19,7 @@ import CursorHighlight from "./components/cursor-highlight/cursor";
 import Experience from "./components/experience/experience";
 import Projects from "./components/projects/projects";
 import { MdOutlineArrowDownward } from "react-icons/md";
+import Link from "next/link";
 export default function Page() {
   const [loading, setLoading] = useState(true);
   const [cursorPosition, setCursorPosition] = useState({
@@ -103,6 +104,8 @@ export default function Page() {
   };
 
   const isSectionActive = (sectionId: any) => activeSection === sectionId;
+
+  const abims = '/assets/images/pdff.pdf'
 
   return (
     <div>
@@ -315,7 +318,6 @@ export default function Page() {
                       >
                         <AiOutlineMail size={22} />
                       </a>
-
                     </div>
                   </div>
                 </motion.div>
@@ -334,18 +336,18 @@ export default function Page() {
                     </p>
 
                     <p className="text-[16px] leading-7 ">
-                      Hi! Im a frontend developer specializing in React.js
+                      Hi! I am a frontend developer specializing in React.js
                       Next.js, TypeScript and CSS. I create responsive web
                       applications with a focus on seamless user experiences.My
                       journey in web development has led me to collaborate on
                       diverse projects across the finance, travel, and
-                      healthcare industries. Im passionate about creating great
-                      user experiences and I have a strong understanding of
-                      usability and accessibility standards.
+                      healthcare industries. I am passionate about creating
+                      great user experiences and I have a strong understanding
+                      of usability and accessibility standards.
                     </p>
                     <p className="mt-[22px] text-[16px] leading-7 ">
-                      Recently, Ive ventured into the dynamic world of mobile
-                      app creation with{" "}
+                      Recently, I ventured into the dynamic world of mobile app
+                      creation with{" "}
                       <span className="tracking-[3px] text-[#53DD89]">
                         Flutter
                       </span>{" "}
@@ -357,11 +359,11 @@ export default function Page() {
                       captivating movie marathons, enjoying quality time with
                       friends, or embarking on thrilling gaming adventures. Just
                       as I seek excellence in code, I appreciate the artistry in
-                    these hobbies.
+                      these hobbies.
                     </p>
                     <p className="mt-[22px] text-[16px] leading-7 ">
                       {" "}
-                      Im always eager to collaborate on exciting projects or
+                      Always eager to collaborate on exciting projects or
                       discuss the latest trends in frontend development. Lets
                       build something amazing together!
                     </p>
@@ -395,12 +397,14 @@ export default function Page() {
                     onMouseEnter={() => handleMouseEnter("section4")}
                     onMouseLeave={handleMouseLeave}
                   >
-                    <p className="text-[#53DD89] flex tracking-[2px] h-[90px] uppercase text-[12px] tablet:text-[14px]">
-                      Download Resume
-                      <span className=" ml-[7px]">
-                        <MdOutlineArrowDownward size={19} />
-                      </span>
-                    </p>{" "}
+                    <a href={abims} download="Abimbola Adeyemi Resume">
+                      <p className="text-[#53DD89] flex tracking-[2px] h-[90px] uppercase text-[12px] tablet:text-[14px]">
+                        Download Resume
+                        <span className=" ml-[7px]">
+                          <MdOutlineArrowDownward size={19} />
+                        </span>
+                      </p>{" "}
+                    </a>
                   </section>
                 </motion.div>
               </div>
