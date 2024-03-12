@@ -363,7 +363,7 @@ export default function Page() {
                       {" "}
                       Eager to collaborate on dynamic projects and engage in
                       discussions about the latest trends in frontend
-                      development. Let's create something remarkable together!
+                      development. Lets create something remarkable together!
                     </p>
                     {/* Add content for Section 1 */}
                   </section>
