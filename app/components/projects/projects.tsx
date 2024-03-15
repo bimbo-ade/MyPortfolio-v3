@@ -2,10 +2,10 @@ import React from "react";
 import { MdOutlineArrowOutward } from "react-icons/md";
 
 import Image from "next/image";
-import flower from "@/public/assets/images/flower.jpg";
+import v from "@/public/assets/images/v.png";
 import hood from "@/public/assets/images/hood.png";
 import foodlang from "@/public/assets/images/foodlang.png";
-import starwars from "@/public/assets/images/starwars.jpg";
+import starwars from "@/public/assets/images/starwars.png";
 
 const Projects = () => {
   return (
@@ -21,7 +21,7 @@ const Projects = () => {
           <Image
             src={hood}
             alt=""
-            className="tablet:w-[140px] tablet:max-w-[160px] w-[150px] object-cover border border-[#c5c5c5] border-opacity-[0.5] p-1"
+            className="tablet:w-[140px] tablet:max-w-[160px] w-[150px] object-cover  p-1"
           />
           <div className="tablet:ml-[20px]  ">
             {" "}
@@ -65,9 +65,9 @@ const Projects = () => {
           className=" cursor-pointer  my-[70px] laptop:my-[1px] w-[100%] tablet:flex   laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.014]"
         >
           <Image
-            src={flower}
+            src={foodlang}
             alt=""
-            className="tablet:w-[140px] tablet:max-w-[160px]  w-[150px] border border-[#c5c5c5] border-opacity-[0.5] object-cover"
+            className="tablet:w-[140px] tablet:max-w-[160px]  w-[150px]  object-cover"
           />
           <div className="tablet:ml-[20px]  ">
             {" "}
@@ -115,7 +115,7 @@ const Projects = () => {
           <Image
             src={starwars}
             alt=""
-            className="tablet:w-[140px] tablet:max-w-[160px] w-[150px] object-cover border border-[#c5c5c5] border-opacity-[0.5]"
+            className="tablet:w-[140px] tablet:max-w-[160px] w-[150px] object-cover "
           />
           <div className="tablet:ml-[20px]  ">
             {" "}
@@ -155,15 +155,15 @@ const Projects = () => {
       <div className="my-[50px]  laptop:my-[30px] bg-[#9EC3FA] bg-opacity-[0.033] tablet:bg-transparent tablet:p-0 p-4">
         {" "}
         <a
-          href="https://www.instagram.com/damisayrah_/"
+          href="https://abimboladeyemi.vercel.app"
           target="_blank"
           rel="noopener noreferrer"
           className=" cursor-pointer  my-[70px] laptop:my-[1px] w-[100%] tablet:flex  laptop:p-6 transition duration-120 laptop:hover:bg-[#9EC3FA] laptop:hover:bg-opacity-[0.014]"
         >
           <Image
-            src={flower}
+            src={v}
             alt=""
-            className="tablet:w-[140px] tablet:max-w-[160px]   w-[150px] border border-[#c5c5c5] border-opacity-[0.5] object-cover"
+            className="tablet:w-[140px] tablet:max-w-[160px]   w-[150px]  object-cover"
           />
           <div className="tablet:ml-[20px]  ">
             {" "}
