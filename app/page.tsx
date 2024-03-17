@@ -103,7 +103,7 @@ export default function Page() {
 
   const isSectionActive = (sectionId: any) => activeSection === sectionId;
 
-  const abims = "/assets/images/name.png";
+  const abims = "/assets/images/abims.pdf";
 
   return (
     <div>
