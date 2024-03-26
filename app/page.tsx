@@ -338,8 +338,7 @@ export default function Page() {
                       Next.js, TypeScript and CSS. I create responsive web
                       applications with a focus on seamless user experiences.My
                       journey in web development has led me to collaborate on
-                      diverse projects across the finance, travel, and
-                      healthcare industries. I am passionate about creating
+                      diverse projects. I am passionate about creating
                       great user experiences and I have a strong understanding
                       of usability and accessibility standards.
                     </p>
