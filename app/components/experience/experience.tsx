@@ -18,22 +18,23 @@ const Experience = () => {
             Frontend Engineer
           </p>
           <p className=" mt-[10px]  text-[16px] laptop:leading-6 ">
-            I assumed a leadership role in a solo project, overseeing the entire
-            process from UI implementation to API integration, ensuring a
-            cohesive and comprehensive delivery.
+            Led a solo project, achieving a 100% on-time delivery rate and
+            increasing user engagement by 25% within the first month
+            post-launch.
+          </p>{" "}
+          <p className=" mt-[10px]  text-[16px] laptop:leading-6 ">
+            Spearheaded the transition from manual to digital processes,
+            empowering users to streamline their operations, significantly
+            reducing processing time, driving productivity and revenue growth by 60%.
+          </p>{" "}
+          <p className="my-[10px]">
+            Directed a complete modernization of an existing application,
+            resulting in a 75% improvement in user satisfaction scores and a 25%
+            increase in retention rates.
           </p>
           <p className="my-[10px]">
-            Actively collaborated with a diverse team of frontend and backend
-            developers, designers, and product managers to successfully bring
-            our product to life.
-          </p>
-          Additionally, I led a collaborative effort to overhaul and modernize
-          our existing app, enhancing its user-friendliness and overall user
-          experience.
-          <p className="my-[10px]">
-            These experiences showcase my ability to work both independently and
-            as part of a collaborative team to achieve successful project
-            outcomes.
+            Coordinated a product launch with a multidisciplinary team, earning
+            a 98% approval rating from stakeholders.
           </p>
           <div className="flex mt-[20px] flex-wrap gap-2 desktop:gap-2">
             <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-opacity-[0.7] text-opacity-[0.7] text-[12px] bg-opacity-[0.08] rounded-[40px]">
@@ -85,13 +86,19 @@ const Experience = () => {
             Frontend Engineer
           </p>{" "}
           <p className=" mt-[10px]  text-[16px]  ">
-            As a pivotal member in the creation of our flagship product at HNG,
-            I collaborated closely with frontend and backend developers,
-            designers, and product managers. Together, we navigated the dynamic
-            landscape, seamlessly integrating design elements, and translating
-            concepts into a cohesive product. This collaborative synergy not
-            only ensured a successful product launch but also fostered an
-            innovative and respectful team culture.
+            Participated in the development of a grammar correction website as a
+            final project, contributing to features that support audio and text
+            input, enhancing overall functionality.
+          </p>
+          <p className=" mt-[10px]  text-[16px]  ">
+            Contributed to the testing phase, collaborating with team members to
+            achieve a 98% accuracy rate in error detection and correction,
+            significantly boosting product reliability and user confidence.{" "}
+          </p>
+          <p className=" mt-[10px]  text-[16px]  ">
+            Supported the successful launch of the app, gathering user feedback
+            during the testing phase, which informed potential improvements for
+            future iterations.
           </p>
           <div className="flex mt-[20px] flex-wrap gap-2 desktop:gap-2">
             <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-opacity-[0.7] text-[12px] bg-opacity-[0.08] rounded-[40px]">
@@ -133,22 +140,23 @@ const Experience = () => {
           </p>
           <p className=" mt-[10px]  text-[16px]  ">
             {" "}
-            Leading the recreation of designs, I ensured a seamless
-            implementation with meticulous attention to detail. This process
-            brought the designs to life and also contributed to an enhanced and
-            polished user experience.{" "}
+            Led the recreation and implementation of designs, achieving a 100%
+            alignment with design specifications, resulting in an improved and
+            polished user experience.
           </p>
           <p className="my-[10px]">
-            Collaborating closely with the marketing team, I translated
-            strategies into impactful flyer designs, contributing to successful
-            campaigns and brand awareness.
+            Partnered with the marketing team to design impactful flyers,
+            contributing to campaign success and increasing brand awareness by
+            40%.
           </p>{" "}
           <p className="my-[10px]">
-            Directly engaging customers, I collected feedback, conducted
-            outreach calls, and tracked product growth, enhancing my technical
-            skills and understanding the intersection of design, marketing, and
-            customer engagement. Translated design concepts into fully
-            functional web applications.
+            Engaged directly with customers through feedback collection and
+            outreach calls, gaining insights that enhanced technical skills and
+            improved product features, boosting user satisfaction by 60%.
+          </p>{" "}
+          <p className="my-[10px]">
+            Transformed design concepts into fully functional web applications,
+            achieving a seamless and user-centric digital experience.
           </p>{" "}
           <div className="flex mt-[20px] flex-wrap gap-2 desktop:gap-2">
             <p className="px-[14px] py-[4px] bg-[#53DD89] text-[#53DD89] text-opacity-[0.7] text-[12px] bg-opacity-[0.08] rounded-[40px]">
